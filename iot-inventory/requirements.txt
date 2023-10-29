@@ -1,0 +1,4 @@
+ovos-plugin-manager~=0.0
+psutil
+requests
+ovos-phal-sensors
