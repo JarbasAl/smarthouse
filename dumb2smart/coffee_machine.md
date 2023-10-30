@@ -1,6 +1,16 @@
 # Coffee Machine
 
+Features:
+- power monitoring
+- usage monitoring
+- energy saving
+- inventory tracking
+
 ![img_1.png](img_1.png)
+
+# Energy Saving
+
+- when usage stops for X minutes -> turn off smart plug
 
 # Usage - binary sensor
 
@@ -9,7 +19,7 @@ detect power usage from smart plug, above a certain value we know machine is in 
 ![img_2.png](img_2.png)
 
 
-# State sensor
+# Usage Monitoring - State sensor
 
 ![img.png](img.png)
 
@@ -17,7 +27,6 @@ detect power usage from smart plug, above a certain value we know machine is in 
 - after 40 seconds -> ready
 - on usage -> coffee
 - on no usage -> ready
-- after 2 minutes of no usage -> turn off smart plug
 
 
 # Inventory
