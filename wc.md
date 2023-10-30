@@ -1,15 +1,15 @@
 # WC
 
 ligações:
-- Corredor 3
+- [corredor 3](./corredores.md)
 
 
 ## B.O.M
 
-PIR: 2
-Temperature: 1
-Light Switch: 2
-ZigBee Repeater: 1
+- PIR: 2
+- Temperature: 1
+- Light Switch: 2
+- ZigBee Repeater: 1
 
 Janelas:
-    Window Contact: 1
+  - Window Contact: 1

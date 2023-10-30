@@ -1,16 +1,16 @@
 # ManCave
 
 ligações:
-- Corredor 2
-- Sala
+- [corredor 2](./corredores.md)
+- [Sala](./sala.md)
 
 ## B.O.M
 
-PIR: 1
-Temperature: 1
-Light Switch: 2
-Smart Bulb: 1
-Dumb TV: 1
+- PIR: 1
+- Temperature: 1
+- Light Switch: 2
+- Smart Bulb: 1
+- Dumb TV: 1
 
 Janelas:
-    Window Contact: 1
+    - Window Contact: 1
