@@ -53,8 +53,22 @@ quando ocupação da cozinha é **ligada**:
 ### Eletrodomesticos Off
 
 quando ocupação da cozinha é **desligada**:
-- se sleep da cozinha desligado
 - desliga maquina de café
 - desliga microondas
 
 ![img_4.png](img_4.png)
+
+
+### Ocupação
+
+quando qualquer uma das condições se verifica -> ocupação da cozinha é **ligada**
+- porta frigorifico aberta
+- porta congelador aberta
+- porta microondas aberta
+- microondas em funcionamento
+- maquina de cafe em funcionmento
+- sensor PIR
+- luz ligada
+
+
+![img_5.png](img_5.png)
