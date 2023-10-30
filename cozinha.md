@@ -90,6 +90,8 @@ dumb2smart:
 - limit sensor, high energy consumption threshold -> we know it is heating
 - door contact sensor, track when door opens/closes
 
+![img_10.png](img_10.png)
+
 when microwave door is **open**:
 - if microwave plug is off
 - turn on microwave plug
