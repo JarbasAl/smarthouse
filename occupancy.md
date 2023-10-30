@@ -2,35 +2,38 @@
 
 
                WC da Dii
-                  |
-           Escritorio da Dii
-                  |
-              Marquise
-                  |
-              Cozinha
                  |
-             Corredor 1
-             |        |
-           Sala    Corredor 2
-                  |     |        |
-            ManCave  Escritorio  Corredor 3
-                                 |    |     |
-                                WC   Quarto Quarto Hugo
+           Escritorio da Dii
+                 |
+              Marquise
+                 |
+              Cozinha 
+                 |       
+              Corredor 1
+                __________     Outside
+                |        |       |
+                Sala    Corredor 2
+                  ;     ________________
+                  ;     |     |        |
+                  ManCave  Escritorio  Corredor 3
+                                       _____________________
+                                       |      |            |
+                                       Quarto Quarto Hugo  WC
 
 
 
 
 ## Occupancy
 
-create a sensor for each room
+in home assistant create a sensor for each room in the config file
+
 ```
   - trigger:
     - platform: event
-      event_type: people_sala_update
+      event_type: people_XXX_update
     binary_sensor:
-      - name: "people_in_sala"
+      - name: "people_in_XXX"
         state: "{{ trigger.event.data.state }}"
-        icon: "mdi:home-account"
         device_class: "occupancy"
 ```
 `
@@ -38,14 +41,21 @@ create a sensor for each room
 
 ### PIR based occupancy detection
 
-create automations to set the state of sensors created above
+create automations to set the state of sensors created above, by emitting a event
 ```
-event: people_escritorio_update
+event: people_XXX_update
 event_data:
   state: "on"
 ```
+```
+event: people_XXX_update
+event_data:
+  state: "off"
+```
 
-automations overview
+![imagem](https://user-images.githubusercontent.com/33701864/278907101-d4ecb084-b272-424c-9ccf-7e742c8d2ce1.png)
+
+PIR sensor automations overview
 
 
                WC da Dii <- people_wc_dii_update:ON + people_escritorio_dii_update:OFF
@@ -70,7 +80,7 @@ automations overview
                                           Quarto Hugo <- people_quarto_hugo_update:ON
 
 
-Extra occupancy sensors -> people_XXX_update:ON
+Extra occupancy sensor triggers -> people_XXX_update:ON
 
 - window state changes
 - light turned on
