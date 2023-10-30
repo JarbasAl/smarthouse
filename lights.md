@@ -19,7 +19,6 @@
 - if `people_in_XXX` turns on
   - if it's night
   - if room sleep is off
-  - if no media is playing  (chromecast, smartTV)
   - turn lights on
 
 ![img_1.png](img_1.png)
