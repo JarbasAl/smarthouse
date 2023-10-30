@@ -1,3 +1,8 @@
+# Casa do Miro e da Dii
+
+## Docs
+- [Occupancy](./occupancy.md)
+
 ## House Tree View
 
 
@@ -21,80 +26,27 @@
                                    |      |            |
                                    Quarto Quarto Hugo  WC     | Espaços Privados
 
-# WC da Dii
+## Corredores
+
+### Corredor 1
 
 ligações:
-- escritorio da Dii
+- [sala](./sala.md)
+- [cozinha](./cozinha.md)
 
-# Escritorio da Dii
-
-ligações:
-- WC da Dii
-- Marquise
-
-# Marquise
-
-ligações:
-- Escritorio da Dii
-- Cozinha
-
-# Cozinha
-
-ligações:
-- marquise
-- corredor 1
-
-# Corredor 1
-
-ligações:
-- sala
-- cozinha
-
-# Sala
-
-ligações:
-- Corredor 1
-- ManCave
-
-# ManCave
-
-ligações:
-- Corredor 2
-- Sala
-
-# Corredor 2
+### Corredor 2
 
 ligações:
 - exterior
-- corredor 1
-- mancave
-- escritorio
-- corredor 3
+- [corredor 1](./corredores.md)
+- [mancave](./mancave.md)
+- [escritorio](./escritorio.md)
+- [corredor 3](./corredores.md)
 
-# Escritorio
-
-ligações:
-- Corredor 2
-
-# Corredor 3
+### Corredor 3
 
 ligações:
-- corredor 2
-- quarto
-- quarto hugo
-- wc
-
-# Quarto
-
-ligações:
-- Corredor 2
-
-# Quarto do Hugo
-
-ligações:
-- Corredor 2
-
-# WC
-
-ligações:
-- Corredor 2
+- [corredor 2](./corredores.md)
+- [quarto](./quarto.md)
+- [quarto hugo](./quarto_hugo.md)
+- [wc](./wc.md)
