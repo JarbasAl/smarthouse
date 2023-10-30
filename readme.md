@@ -2,6 +2,7 @@
 
 ## Docs
 - [Home](./readme.md)
+- [Lights](./lights.md)
 - [Occupancy](./occupancy.md)
 
 ## House Tree View

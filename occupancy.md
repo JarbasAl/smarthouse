@@ -2,6 +2,7 @@
 
 ## Docs
 - [Home](./readme.md)
+- [Lights](./lights.md)
 
 
 *Welcome to my home automation journey! Today, I'll guide you through setting up a smart occupancy detection system that is not only convenient but also energy-efficient. 

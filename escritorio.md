@@ -5,6 +5,8 @@ ligações:
 
 ## Docs
 - [Home](./readme.md)
+- [Lights](./lights.md)
+- [Occupancy](./occupancy.md)
 
 ## B.O.M
 

@@ -19,7 +19,7 @@ ligações corredor 3:
 
 
 ## Docs
-- [Home](./readme.md)
+- [Lights](./lights.md)
 - [Occupancy](./occupancy.md)
 
 
