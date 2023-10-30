@@ -47,6 +47,9 @@ Here are the key components for this project:
 - **Binary Sensors**: Create binary sensors in Home Assistant for each room to track occupancy status. These sensors will indicate whether a room is occupied or not.
 - **Optional Smart Devices**: You can integrate other smart devices such as smart lights and media players to enhance your automation. When a device is used turn on room accupancy sensors
 
+![imagem](https://user-images.githubusercontent.com/33701864/278898711-c8c6ec8c-7868-4ebf-86b1-805d486d1fcd.png)
+
+
 ## Configuring PIR Sensors
 
 1. **Connect PIR Sensors**: Follow the manufacturer's instructions connect your PIR sensors to Home Assistant. We use Zigbee sensors
@@ -60,33 +63,15 @@ Here are the key components for this project:
      state: "{{ trigger.event.data.state }}"
      device_class: "occupancy"
 ```
-3. **Automation Rules**: Set up automation rules for each room to turn on the occupancy status based on PIR sensor events and other triggers.
-4. **Corridor Choke Points**: Set up corridor sensors to detect movement. These sensors will be used to turn off room occupancy sensors
-5. **Automate Corridor Changes**: Create automation rules for your corridor sensors to turn off room occupancy sensors. 
-
+3. **Automate Room Occupancy**: Set up automation rules for each room to turn on the occupancy status based on PIR sensor events and other triggers.
+4. **Automate Corridor Changes**: Create automation rules for your corridor sensors to turn off room occupancy sensors. 
 
 Repeat this process for each room, ensuring that corridor sensors are set up as choke points to turn off room occupancy sensors when they detect movement.
 
-![imagem](https://user-images.githubusercontent.com/33701864/278898711-c8c6ec8c-7868-4ebf-86b1-805d486d1fcd.png)
+![imagem](https://user-images.githubusercontent.com/33701864/278907101-d4ecb084-b272-424c-9ccf-7e742c8d2ce1.png)
 
 
 ## PIR automations
-
-create automations to set the state of sensors created above, by emitting a event
-```
-event: people_XXX_update
-event_data:
-  state: "on"
-```
-```
-event: people_XXX_update
-event_data:
-  state: "off"
-```
-
-
-![imagem](https://user-images.githubusercontent.com/33701864/278907101-d4ecb084-b272-424c-9ccf-7e742c8d2ce1.png)
-
 
 PIR sensor automations overview
 
@@ -121,6 +106,17 @@ Extra occupancy sensor triggers -> people_XXX_update:ON
 - electrodomestic usage detected (coffee machine, microwave, fridge door...)
 - media playback detected (chromecast, spotify...)
 
+create automations to set the state of sensors created above, by emitting a event
+```
+event: people_XXX_update
+event_data:
+  state: "on"
+```
+```
+event: people_XXX_update
+event_data:
+  state: "off"
+```
 ## Enjoy a Smarter Home
 
 Once you've set up this system, your home will automatically respond to your presence and turn off devices when you leave a room. You'll enjoy the convenience and energy savings of a fully automated smart home.
