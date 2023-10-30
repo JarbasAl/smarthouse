@@ -12,31 +12,6 @@ In this system, occupancy sensors are turned on by various triggers, but they ar
 Imagine a home that responds to your presence, turning on lights and adjusting the environment to your liking, and then intelligently turning off devices when you leave a room. 
 It's more than just convenient; it's a greener, more efficient way to live.
 
-
-## House Tree View
-
-
-               WC da Dii
-                 |
-           Escritorio da Dii
-                 |
-              Marquise
-                 |
-              Cozinha 
-                 |       
-              Corredor 1
-                __________     Outside
-                |        |       |
-                Sala    Corredor 2
-                  ;     ________________
-                  ;     |     |        |
-                  ManCave  Escritorio  Corredor 3
-                                       _____________________
-                                       |      |            |
-                                       Quarto Quarto Hugo  WC
-
-
-
 ## What You'll Need
 
 Here are the key components for this project:
@@ -67,6 +42,27 @@ Here are the key components for this project:
 4. **Automate Corridor Changes**: Create automation rules for your corridor sensors to turn off room occupancy sensors. 
 
 Repeat this process for each room, ensuring that corridor sensors are set up as choke points to turn off room occupancy sensors when they detect movement.
+
+
+               WC da Dii
+                 |
+           Escritorio da Dii
+                 |
+              Marquise
+                 |
+              Cozinha 
+                 |       
+              Corredor 1
+                __________     Outside
+                |        |       |
+                Sala    Corredor 2
+                  ;     ________________
+                  ;     |     |        |
+                  ManCave  Escritorio  Corredor 3
+                                       _____________________
+                                       |      |            |
+                                       Quarto Quarto Hugo  WC
+
 
 ![imagem](https://user-images.githubusercontent.com/33701864/278907101-d4ecb084-b272-424c-9ccf-7e742c8d2ce1.png)
 
