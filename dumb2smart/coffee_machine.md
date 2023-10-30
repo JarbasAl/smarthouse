@@ -13,11 +13,11 @@ detect power usage from smart plug, above a certain value we know machine is in 
 
 ![img.png](img.png)
 
-turn on smart plug -> heating
-after 40 seconds -> ready
-on usage -> coffee
-on no usage -> ready
-after 2 minutes of no usage -> turn off smart plug
+- turn on smart plug -> heating
+- after 40 seconds -> ready
+- on usage -> coffee
+- on no usage -> ready
+- after 2 minutes of no usage -> turn off smart plug
 
 
 # Inventory
