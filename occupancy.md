@@ -3,6 +3,16 @@
 ## Docs
 - [Home](./readme.md)
 
+
+*Welcome to my home automation journey! Today, I'll guide you through setting up a smart occupancy detection system that is not only convenient but also energy-efficient. 
+In this system, occupancy sensors are turned on by various triggers, but they are only turned off when corridor sensors detect movement, serving as choke points signaling room transitions.*
+
+# Setup
+
+Imagine a home that responds to your presence, turning on lights and adjusting the environment to your liking, and then intelligently turning off devices when you leave a room. 
+It's more than just convenient; it's a greener, more efficient way to live.
+
+
 ## House Tree View
 
 
@@ -27,24 +37,40 @@
 
 
 
+## What You'll Need
 
-## Occupancy
+Here are the key components for this project:
 
-in home assistant create a sensor for each room in the config file
+- **Home Assistant**: If you haven't already, set up Home Assistant on your chosen hardware. Home Assistant will be the control center for your smart home devices and automations.
+- **PIR (Passive Infrared) Sensors**: PIR sensors are essential for detecting motion in rooms. You'll need one sensor for each room you want to monitor.
+- **Corridor Sensors**: You'll need corridor sensors to serve as choke points for turning off room occupancy sensors.
+- **Binary Sensors**: Create binary sensors in Home Assistant for each room to track occupancy status. These sensors will indicate whether a room is occupied or not.
+- **Optional Smart Devices**: You can integrate other smart devices such as smart lights and media players to enhance your automation. When a device is used turn on room accupancy sensors
 
+## Configuring PIR Sensors
+
+1. **Connect PIR Sensors**: Follow the manufacturer's instructions connect your PIR sensors to Home Assistant. We use Zigbee sensors
+2. **Home Assistant Configuration**: In your Home Assistant configuration, create binary sensors for each room. Here's an example YAML configuration for a binary sensor in a room named "Sala":
+```yaml
+- trigger:
+ - platform: event
+   event_type: people_sala_update
+ binary_sensor:
+   - name: "people_in_sala"
+     state: "{{ trigger.event.data.state }}"
+     device_class: "occupancy"
 ```
-  - trigger:
-    - platform: event
-      event_type: people_XXX_update
-    binary_sensor:
-      - name: "people_in_XXX"
-        state: "{{ trigger.event.data.state }}"
-        device_class: "occupancy"
-```
-`
+3. **Automation Rules**: Set up automation rules for each room to turn on the occupancy status based on PIR sensor events and other triggers.
+4. **Corridor Choke Points**: Set up corridor sensors to detect movement. These sensors will be used to turn off room occupancy sensors
+5. **Automate Corridor Changes**: Create automation rules for your corridor sensors to turn off room occupancy sensors. 
+
+
+Repeat this process for each room, ensuring that corridor sensors are set up as choke points to turn off room occupancy sensors when they detect movement.
+
 ![imagem](https://user-images.githubusercontent.com/33701864/278898711-c8c6ec8c-7868-4ebf-86b1-805d486d1fcd.png)
 
-### PIR based occupancy detection
+
+## PIR automations
 
 create automations to set the state of sensors created above, by emitting a event
 ```
@@ -58,7 +84,9 @@ event_data:
   state: "off"
 ```
 
+
 ![imagem](https://user-images.githubusercontent.com/33701864/278907101-d4ecb084-b272-424c-9ccf-7e742c8d2ce1.png)
+
 
 PIR sensor automations overview
 
@@ -92,3 +120,10 @@ Extra occupancy sensor triggers -> people_XXX_update:ON
 - closet door open
 - electrodomestic usage detected (coffee machine, microwave, fridge door...)
 - media playback detected (chromecast, spotify...)
+
+## Enjoy a Smarter Home
+
+Once you've set up this system, your home will automatically respond to your presence and turn off devices when you leave a room. You'll enjoy the convenience and energy savings of a fully automated smart home.
+
+Feel free to fine-tune your automations and explore more ways to make your home even smarter. If you encounter any issues or have questions, the Home Assistant community is a great resource for support and ideas. Have fun and enjoy the benefits of your new intelligent home occupancy system!
+
