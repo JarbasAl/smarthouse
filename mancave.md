@@ -4,6 +4,10 @@ ligações:
 - [corredor 2](./corredores.md)
 - [Sala](./sala.md)
 
+## Docs
+- [Home](./readme.md)
+
+
 ## B.O.M
 
 - PIR: 1

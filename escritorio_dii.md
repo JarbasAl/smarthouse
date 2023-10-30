@@ -4,6 +4,9 @@ ligações:
 - [WC da Dii](./wc_dii.md)
 - [Marquise](./marquise.md)
 
+## Docs
+- [Home](./readme.md)
+
 ## B.O.M
 
 - PIR: 1

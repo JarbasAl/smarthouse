@@ -3,6 +3,9 @@
 ligações:
 - [escritorio da Dii](./escritorio_dii.md)
 
+## Docs
+- [Home](./readme.md)
+
 ## B.O.M
 
 - PIR: 1

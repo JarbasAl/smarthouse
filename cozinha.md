@@ -4,6 +4,9 @@ ligações:
 - [marquise](./marquise.md)
 - [corredor 1](./corredores.md)
 
+## Docs
+- [Home](./readme.md)
+
 ## B.O.M
 
 - PIR: 3

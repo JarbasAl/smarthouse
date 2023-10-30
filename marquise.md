@@ -4,6 +4,8 @@ ligações:
 - [Escritorio da Dii](./escritorio_dii.md)
 - [Cozinha](./cozinha.md)
 
+## Docs
+- [Home](./readme.md)
 
 ## B.O.M
 

@@ -1,6 +1,7 @@
 # Casa do Miro e da Dii
 
 ## Docs
+- [Home](./readme.md)
 - [Occupancy](./occupancy.md)
 
 ## House Tree View
@@ -26,27 +27,15 @@
                                    |      |            |
                                    Quarto Quarto Hugo  WC     | Espaços Privados
 
-## Corredores
 
-### Corredor 1
-
-ligações:
+- [corredores](./corredores.md)
 - [sala](./sala.md)
 - [cozinha](./cozinha.md)
-
-### Corredor 2
-
-ligações:
-- exterior
-- [corredor 1](./corredores.md)
 - [mancave](./mancave.md)
 - [escritorio](./escritorio.md)
-- [corredor 3](./corredores.md)
-
-### Corredor 3
-
-ligações:
-- [corredor 2](./corredores.md)
 - [quarto](./quarto.md)
 - [quarto hugo](./quarto_hugo.md)
 - [wc](./wc.md)
+- [marquise](./marquise.md)
+- [Escritorio da Dii](./escritorio_dii.md)
+- [WC da Dii](./wc_dii.md)

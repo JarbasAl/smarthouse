@@ -3,6 +3,8 @@
 ligações:
 - [corredor 3](./corredores.md)
 
+## Docs
+- [Home](./readme.md)
 
 ## B.O.M
 

@@ -3,6 +3,9 @@
 ligações:
 - [corredor 1](./corredores.md)
 - [ManCave](./mancave.md)
+- 
+## Docs
+- [Home](./readme.md)
 
 ## B.O.M
 
