@@ -48,7 +48,7 @@ quando ocupação da cozinha é **ligada**:
 - liga maquina de café
 - liga maquina da loiça
 
-![img_4.png](img_4.png)
+![img_6.png](img_6.png)
 
 ### Eletrodomesticos Off
 
@@ -57,5 +57,4 @@ quando ocupação da cozinha é **desligada**:
 - desliga maquina de café
 - desliga microondas
 
-
-![img_5.png](img_5.png)
+![img_4.png](img_4.png)

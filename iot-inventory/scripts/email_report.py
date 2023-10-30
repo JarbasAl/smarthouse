@@ -22,14 +22,14 @@ if __name__ == "__main__":
 
     print(report)
 
-    user = ""
-    pswd = ""
+    user = "jarbasai@mailfence.com"
+    pswd = "828/EJOWcrC5"
     host = "smtp.mailfence.com"
     port = 465
 
     subject = "Price Report"
     body = report
-    recipient = ""
+    recipient = "jcgf72@gmail.com"
 
     send_smtp(user, pswd,
               user, recipient,
