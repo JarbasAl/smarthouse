@@ -25,16 +25,16 @@ Armarios; (dispensa)
 
 ## Automations
 
-### Ocupação
+### Occupancy
 
-quando qualquer uma das condições se verifica -> ocupação da cozinha é **ligada**
-- porta frigorifico aberta
-- porta congelador aberta
-- porta microondas aberta
-- microondas em funcionamento
-- maquina de cafe em funcionmento
-- sensor PIR
-- luz ligada
+when any condition triggers -> cozinha occupancy is **on**:
+- fridge door open
+- freezer door open
+- microwave door open
+- microwave heating
+- coffee machine working
+- PIR sensor (movement)
+- lights on
 
 
 ![img_5.png](img_5.png)
