@@ -27,7 +27,7 @@ Here are the key components for this project:
 - **PIR (Passive Infrared) Sensors**: PIR sensors are essential for detecting motion in rooms. You'll need one sensor for each room you want to monitor.
 - **Corridor Sensors**: You'll need corridor sensors to serve as choke points for turning off room occupancy sensors.
 - **Binary Sensors**: Create binary sensors in Home Assistant for each room to track occupancy status. These sensors will indicate whether a room is occupied or not.
-- **Optional Smart Devices**: You can integrate other smart devices such as smart lights and media players to enhance your automation. When a device is used turn on room accupancy sensors
+- **Optional Smart Devices**: You can integrate other smart devices such as smart lights and media players to enhance your automation. When a device is used turn on room occupancy sensors or block occupancy from being turned off
 
 ![imagem](https://user-images.githubusercontent.com/33701864/278898711-c8c6ec8c-7868-4ebf-86b1-805d486d1fcd.png)
 
@@ -36,6 +36,7 @@ Here are the key components for this project:
 
 1. **Connect PIR Sensors**: Follow the manufacturer's instructions connect your PIR sensors to Home Assistant. We use Zigbee sensors
 2. **Home Assistant Configuration**: In your Home Assistant configuration, create binary sensors for each room. Here's an example YAML configuration for a binary sensor in a room named "Sala":
+
 ```yaml
 - trigger:
  - platform: event
@@ -45,8 +46,9 @@ Here are the key components for this project:
      state: "{{ trigger.event.data.state }}"
      device_class: "occupancy"
 ```
+
 3. **Automate Room Occupancy**: Set up automation rules for each room to turn on the occupancy status based on PIR sensor events and other triggers.
-4. **Automate Corridor Changes**: Create automation rules for your corridor sensors to turn off room occupancy sensors. 
+4. **Automate Corridor Changes**: Create automation rules for your corridor sensors to turn off room occupancy sensors. Check for certain activities (such as watching TV) to avoid turning occupancy off
 
 Repeat this process for each room, ensuring that corridor sensors are set up as choke points to turn off room occupancy sensors when they detect movement.
 
@@ -108,6 +110,13 @@ Extra occupancy sensor triggers -> people_XXX_update:ON
 - closet door open
 - electrodomestic usage detected (coffee machine, microwave, fridge door...)
 - media playback detected (chromecast, spotify...)
+
+Extra occupancy off blockers-> if in use, do not allow people_XXX_update:OFF
+
+- electrodomestic door open (microwave door, fridge door...)
+- electrodomestic in use (coffee machine, microwave...)
+- media playback detected (chromecast, spotify...)
+
 
 create automations to set the state of sensors created above, by emitting a event
 ```
