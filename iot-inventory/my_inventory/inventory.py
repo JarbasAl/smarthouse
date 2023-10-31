@@ -203,5 +203,5 @@ if __name__ == "__main__":
     #    print(res)
 
     # get values from database
-    for s in hiper.sensors:
+    for s in hiper._sensors:
         print(s)

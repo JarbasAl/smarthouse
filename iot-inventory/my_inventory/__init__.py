@@ -54,9 +54,9 @@ class InventorySensors:
         sensors = []
 
         if self.hiper:
-            sensors += HipermercadosPortugal().sensors
+            sensors += HipermercadosPortugal()._sensors
         if self.inventory:
-            sensors += Inventory().sensors
+            sensors += Inventory()._sensors
         return sensors
 
     def _parallel_readings(self, do_reading):
