@@ -1,5 +1,9 @@
 # Microwave
 
+Requirements:
+- Smart Switch: 1
+- Contact Sensor: 1
+
 Features:
 - power monitoring
 - usage monitoring
@@ -7,7 +11,9 @@ Features:
 
 ![img_3.png](img_3.png)
 
-# Usage Monitoring - door contact sensor
+# Usage Monitoring
+
+![img_9.png](img_9.png)
 
 - on door open -> save timestamp
 

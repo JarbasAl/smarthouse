@@ -1,5 +1,8 @@
 # Coffee Machine
 
+Requirements:
+- Smart Switch: 1
+
 Features:
 - power monitoring
 - usage monitoring

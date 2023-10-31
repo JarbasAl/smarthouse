@@ -1,6 +1,6 @@
 # Casa do Miro e da Dii
 
-![img_11.png](img_11.png)
+![img_12.png](img_12.png)
 
 ## Menu
 
