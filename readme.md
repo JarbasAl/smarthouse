@@ -5,6 +5,7 @@
 ## Menu
 
 - How it works
+  - [Software](./software.md)
   - [Lights](./lights.md)
   - [Occupancy](./occupancy.md)
 - Dumb2Smart

@@ -5,6 +5,7 @@
 
 - [Home](./readme.md)
 - How it works
+  - [Software](./software.md)
   - [Lights](./lights.md)
 - Dumb2Smart
   - [Microwave](./dumb2smart/microwave.md)

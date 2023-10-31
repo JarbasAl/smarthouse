@@ -6,6 +6,7 @@
 
 - [Home](./readme.md)
 - How it works
+  - [Software](./software.md)
   - [Occupancy](./occupancy.md)
 - Dumb2Smart
   - [Microwave](./dumb2smart/microwave.md)

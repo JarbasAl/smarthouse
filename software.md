@@ -1,0 +1,20 @@
+# Software
+
+## Menu
+
+- [Home](./readme.md)
+- How it works
+  - [Lights](./lights.md)
+  - [Occupancy](./occupancy.md)
+- Dumb2Smart
+  - [Microwave](./dumb2smart/microwave.md)
+  - [Coffee Machine](./dumb2smart/coffee_machine.md)
+
+
+## Software Stack
+
+- [OpenVoiceOS](https://www.openvoiceos.org) - voice assistant
+  - [HiveMind](https://jarbashivemind.github.io/HiveMind-community-docs) - secure connections to voice assistants
+- [zigbee2mqtt](https://www.zigbee2mqtt.io/) - connect zigbee devices
+- [Home Assistant](https://www.home-assistant.io) - Home automation
+  - [hivemind-home-assistant-notify](https://jarbashivemind.github.io/HiveMind-community-docs/homeassistant/)
