@@ -3,10 +3,10 @@
 ## Menu
 
 - How it works
-  - [Lights](./lights.md)
-  - [Occupancy](./occupancy.md)
+  - [Lights](../lights.md)
+  - [Occupancy](../occupancy.md)
 - Dumb2Smart
-  - [Microwave](./dumb2smart/microwave.md)
+  - [Microwave](./microwave.md)
 
 ## Requirements:
 - Smart Switch: 1

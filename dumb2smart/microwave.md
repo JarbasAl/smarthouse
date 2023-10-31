@@ -3,10 +3,10 @@
 ## Menu
 
 - How it works
-  - [Lights](./lights.md)
-  - [Occupancy](./occupancy.md)
+  - [Lights](../lights.md)
+  - [Occupancy](../occupancy.md)
 - Dumb2Smart
-  - [Coffee Machine](./dumb2smart/coffee_machine.md)
+  - [Coffee Machine](./coffee_machine.md)
 
 ## Requirements:
 - Smart Switch: 1
