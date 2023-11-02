@@ -15,7 +15,7 @@
 
 - [OpenVoiceOS](https://www.openvoiceos.org) - voice assistant framework
   - [HiveMind](https://jarbashivemind.github.io/HiveMind-community-docs) - secure connections to OVOS / mesh networking
-- [ovos-sensors](https://github.com/OpenVoiceOS/ovos-PHAL-sensors) - expose sensors for any linux device
+- [ovos-sensors](https://github.com/OpenVoiceOS/ovos-PHAL-sensors) - expose sensors from any linux device
 - [zigbee2mqtt](https://www.zigbee2mqtt.io/) - connect zigbee devices
 - [Home Assistant](https://www.home-assistant.io) - Home automation
-  - [hivemind-home-assistant-notify](https://jarbashivemind.github.io/HiveMind-community-docs/homeassistant/)
+  - [hivemind-home-assistant-notify](https://jarbashivemind.github.io/HiveMind-community-docs/homeassistant/) - make HiveMind devices speak
