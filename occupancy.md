@@ -81,7 +81,7 @@ Repeat this process for each room, ensuring that corridor sensors are set up as 
 
 PIR sensor automations overview
 
-![img_8.png](img_8.png)
+![img_10.png](img_10.png)
 
 
                WC da Dii <- people_wc_dii_update:ON + people_escritorio_dii_update:OFF
