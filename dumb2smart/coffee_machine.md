@@ -32,12 +32,7 @@ detect power usage from smart plug, above a certain value we know machine is in 
 
 ### Usage Monitoring - State sensor
 
-![img.png](img.png)
-
-- turn on smart plug -> heating
-- after 40 seconds -> ready
-- on usage -> coffee
-- on no usage -> ready
+![img_6.png](img_6.png)
 
 ### Inventory
 
