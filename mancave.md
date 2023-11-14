@@ -35,7 +35,7 @@ ligações:
   - [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) left - 2 times 7 W lamps
   - [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) right - 2 times 7 W lamps
 - Smart Bulb: 1
-  - [bulb LB130](https://www.tp-link.com/pt/home-networking/smart-bulb/lb130/)
+  - [bulb LB130](https://www.tp-link.com/pt/home-networking/smart-bulb/lb130/) - floor lamp
 - Dumb TV: 1
 
 Janelas:
