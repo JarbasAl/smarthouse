@@ -69,10 +69,13 @@ Janelas:
 ### Software
 
 - [MiniPC U500-H](https://www.minisforum.com/Public/upload/files/2019-08-30/5d688d3e252e5.pdf)
-  - [ovos-docker](https://openvoiceos.github.io/ovos-docker/)
-  - [HiveMind](https://jarbashivemind.github.io/HiveMind-community-docs/)
-  - [ovos-PHAL-sensors](https://github.com/OpenVoiceOS/ovos-PHAL-sensors)
-  - [PowerGuess](https://github.com/OpenJarbas/powerguess)
-  - [Zigbee2MQTT](https://www.zigbee2mqtt.io/)
-  - [HomeAssistant](https://www.home-assistant.io)
+  - [ovos-docker](https://openvoiceos.github.io/ovos-docker/) - Voice Assistant
+  - [HomeAssistant](https://www.home-assistant.io) - Home Assistant
+  - [Zigbee2MQTT](https://www.zigbee2mqtt.io/) - Zigbee control hub 
+  - [HiveMind](https://jarbashivemind.github.io/HiveMind-community-docs/) - Notify via Home Assistant
+  - [ovos-PHAL-sensors](https://github.com/OpenVoiceOS/ovos-PHAL-sensors) - MiniPC sensors in Home Assistant
+  - [PowerGuess](https://github.com/OpenJarbas/powerguess) - MiniPC power consumption in Home Assistant
+  - [Spotifyd](https://github.com/Spotifyd/spotifyd) . accepts audio streaming from spotify
+  - [UPMPDCli](https://www.lesbonscomptes.com/upmpdcli/) - accepts audio streaming via DLNA
+  - [MiniDLNA](https://wiki.archlinux.org/title/ReadyMedia) - exposes files for streaming via DLNA
 
