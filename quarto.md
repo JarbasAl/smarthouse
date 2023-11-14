@@ -25,12 +25,19 @@ ligações:
 ![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
 ![hs100](https://github.com/JarbasAl/smarthouse/assets/33701864/3d4ff7ec-bcb5-47aa-9445-e024a4e34725)
 ![zth2](https://www.zigbee2mqtt.io/images/devices/ZTH02.jpg)
+![pir](https://www.zigbee2mqtt.io/images/devices/IH012-RT01.jpg)
+![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+![button](https://www.zigbee2mqtt.io/images/devices/IH-K663.jpg)
+
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/d24afd4f-9da1-49ef-b683-4665ede887f1)
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/50346f0a-e1f8-4ee0-a419-1e65b2e1627d)
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/8f8f7a9c-e560-4652-9d3b-784fe844c4df)
 
 
 - PIR: 1   (TODO - 2)
+  - [IH012-RT01](https://www.zigbee2mqtt.io/devices/IH012-RT01.html#tuya-ih012-rt01) - bed
 - Temperature: 1
   - [ZTH02](https://www.zigbee2mqtt.io/devices/ZTH02.html#tuya-zth02)
 - Light Switch: 2
@@ -39,10 +46,11 @@ ligações:
 - Smart Bulb: 1
   - [plug tplink HS100](https://www.tp-link.com/pt/home-networking/smart-plug/hs100/) - 1 times ? W lamps
 - Media Players: 2
-  - Raspberry pi 4  (HDMI 1)
+  - Raspberry pi 4  (HDMI 1 / Spotify)
   - Chromecast  (HDMI 2)
 - HVAC: 1
 - Smart Button: 1
+  - [IH-K663](https://www.zigbee2mqtt.io/devices/IH-K663.html#tuya-ih-k663) - desk lamp / house sleep (double click)
 - Dumb TV: 1
   - Hisense - 80 - 120 W
 
@@ -50,7 +58,20 @@ Armarios;
   - Light Switch: 1
     - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0011_switch_module) armario - 1 times ? W lamps
   - Door Contact: 1
+    - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203) - closet
 
 Janelas:
   - Window Contact: 2
+    - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203) - window left
+    - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203) - window right
   - Temperature: 1 (exterior)
+    - [ZTH02](https://www.zigbee2mqtt.io/devices/ZTH02.html#tuya-zth02)
+
+### Software
+- Raspberry pi 4
+  - [manjaro arm](https://manjaro.org/download/#ARM) - Base Operating System
+  - [HiveMind](https://jarbashivemind.github.io/HiveMind-community-docs/) - Notify via Home Assistant
+  - [ovos-PHAL-sensors](https://github.com/OpenVoiceOS/ovos-PHAL-sensors) - RPI sensors in Home Assistant
+  - [PowerGuess](https://github.com/OpenJarbas/powerguess) - fake power consumption in Home Assistant
+  - [Spotifyd](https://github.com/Spotifyd/spotifyd) . accepts audio streaming from spotify
+    
