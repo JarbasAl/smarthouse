@@ -32,17 +32,20 @@ ligações:
 ![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
 ![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
 ![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
+![pir](https://www.zigbee2mqtt.io/images/devices/IH012-RT01.jpg)
+![pir](https://www.zigbee2mqtt.io/images/devices/IH012-RT01.jpg)
+![pir](https://www.zigbee2mqtt.io/images/devices/IH012-RT01.jpg)
+![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+
+
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/d24afd4f-9da1-49ef-b683-4665ede887f1)
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/8f8f7a9c-e560-4652-9d3b-784fe844c4df)
-![pir](https://www.zigbee2mqtt.io/images/devices/IH012-RT01.jpg)
-![pir](https://www.zigbee2mqtt.io/images/devices/IH012-RT01.jpg)
-![pir](https://www.zigbee2mqtt.io/images/devices/IH012-RT01.jpg)
-![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
-![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
-![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
-![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
-![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
-![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/2a1bb2e1-8fd0-4f2e-8270-487e58bcc92b)
 
 - PIR: 3
   - [IH012-RT01](https://www.zigbee2mqtt.io/devices/IH012-RT01.html#tuya-ih012-rt01) - entrance
@@ -71,6 +74,10 @@ ligações:
   - Hisense - 80 - 120 W  (vertical)
 - Media Players: 1
   - Raspberry pi 4  (HDMI 1 / Spotify)
+- Cameras: 1
+  - Playstation Eye USB - via Raspberry pi 4
+- Microphone: 1
+  - Playstation Eye USB - via Raspberry pi 4
      
 Armarios; (dispensa)
   - Light Switch: 1  
