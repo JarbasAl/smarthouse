@@ -42,6 +42,13 @@ ligações:
   - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203) - window 2 right
 - Light Switch: 1 (in kitchen)
 - Smart Plugs: 1 (Washing Machine)
+
+## Automations
+
+- if `occupancy` changes to **ON** -> turn on lights
+- if `occupancy` changes to **OFF** -> turn off lights
+
+`occupancy` is explained [here](./how/occupancy.md)
   - [plug tplink HS110](https://www.tp-link.com/pt/home-networking/smart-plug/hs100/) - washing machine
 - Vibration Sensors: 1 (Washing Machine)
 - Door Sensors: 1 (Washing Machine)
