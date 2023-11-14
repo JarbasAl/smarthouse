@@ -26,6 +26,7 @@ ligações:
 ![hs100](https://github.com/JarbasAl/smarthouse/assets/33701864/3d4ff7ec-bcb5-47aa-9445-e024a4e34725)
 ![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
 ![zth2](https://www.zigbee2mqtt.io/images/devices/ZTH02.jpg)
+![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/d24afd4f-9da1-49ef-b683-4665ede887f1)
 
 - PIR: 2
 - Temperature: 1
@@ -44,7 +45,10 @@ ligações:
 - HVAC: 1
 - IR Control: 1  (TV, HVAC)
 - Smart TV: 1
-- DLNA Players: 1 (TV)
+  - Hisense  - 80 - 120W
+- DLNA Players: 2
+  - MiniPC
+  - Smart TV
 
 Janelas:
   - Window Contact: 2
