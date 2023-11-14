@@ -99,8 +99,13 @@ Armarios; (dispensa)
   - [ovos-PHAL-sensors](https://github.com/OpenVoiceOS/ovos-PHAL-sensors) - RPI sensors in Home Assistant
   - [PowerGuess](https://github.com/OpenJarbas/powerguess) - fake power consumption in Home Assistant
   - [Spotifyd](https://github.com/Spotifyd/spotifyd) . accepts audio streaming from spotify
-    
+
 ## Automations
+
+- if `occupancy` changes to **ON** **+** is night time **+** kitchen not sleeping-> turn on lights
+- if `occupancy` changes to **OFF** -> turn off lights **+** turn off appliances (microwave / coffee machine)
+
+`occupancy` is explained [here](./how/occupancy.md)
 
 ### Occupancy
 
@@ -112,41 +117,3 @@ when any condition triggers -> cozinha occupancy is **on**:
 - coffee machine working
 - PIR sensor (movement)
 - lights on
-
-
-![img_5.png](img_5.png)
-
-
-### Lights on
-
-when cozinha occupancy is **on**:
-- if its night
-- if sleep_cozinha is off
-- lights on
-
-![img_2.png](img_2.png)
-
-#### Lights on - porta
-
-when **movement detected**:
-- if its night
-- if sleep_cozinha is off
-- lights on
-
-![img_7.png](img_7.png)
-
-### Lights off
-
-when cozinha occupancy is **off**:
-- lights off
-
-![img_3.png](img_3.png)
-
-
-### Eletrodomesticos Off
-
-when cozinha occupancy is **off**:
-- coffee machine off
-- microwave off
-
-![img_4.png](img_4.png)
