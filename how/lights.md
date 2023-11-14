@@ -8,6 +8,7 @@
 - How it works
   - [Software](software.md)
   - [Occupancy](occupancy.md)
+  - [Energy Monitoring](energy.md)
 - Dumb2Smart
   - [Microwave](../dumb2smart/microwave.md)
   - [Coffee Machine](../dumb2smart/coffee_machine.md)
