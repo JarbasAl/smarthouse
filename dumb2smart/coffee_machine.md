@@ -52,10 +52,18 @@ Trigger sensor implemented via automations
 - when `coffee_machine_switch` is **OFF** + `coffee_machine_capsule_holder` changes to **OPEN** -> `turn on` smart plug
 - when `coffee_machine_switch` changes to **ON** + `low_water` is **ON** -> `turn off` smart plug
 - when `coffee_machine_switch` changes to **OFF** + `low_water` is **ON** -> `notify` "low water"
+- when `coffee_machine_switch` changes to **ON**  -> change  `coffee_machine_capsule_state` to **WAITING**
+- when `coffee_machine_heating` changes to **ON**  -> change  `coffee_machine_capsule_state` to **HEATING**
+- when `coffee_machine_heating` changes to **OFF**  -> change  `coffee_machine_capsule_state` to **USED**
+- when `coffee_machine_capsule_state` is **WAITING** + `coffee_machine_capsule_holder` changes to **CLOSED** -> change `coffee_machine_capsule_state` to **COFFEE**
 - when `coffee_machine_capsule_state` changes to **COFFEE** -> update timestamp of `last_coffee_timestamp` 
+- when `coffee_machine_capsule_state` changes to **COFFEE** for 2 minutes -> `change  `coffee_machine_capsule_state` to **USED**
 - when `coffee_machine_capsule_state` is **USED** + `coffee_machine_capsule_holder` changes to **OPEN** -> `turn off` smart plug + `notify` "enjoy your coffee"
 - when `coffee_machine_capsule_state` changes to **USED** for 5 minutes -> `notify` "forgot used capsule"
 - when `coffee_machine_capsule_state` changes to **USED** for 20 minutes -> `turn off` smart plug + `notify` "forgot used capsule"
+
+
+
 
 
 
