@@ -10,31 +10,27 @@
   - [Coffee Machine](./coffee_machine.md)
 
 ## Requirements:
-- Smart Switch: 1
-- Contact Sensor: 1
 
+![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
+![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+
+- Smart Switch: 1
+  - [plug ts011f](https://www.zigbee2mqtt.io/devices/TS011F_plug_1.html#tuya-ts011f_plug_1)
+- Contact Sensor: 1
+  - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203)
+  
 ## Features:
+![img_3.png](img_3.png)
 - power monitoring
 - usage monitoring
 - energy saving
 
-![img_3.png](img_3.png)
-
-### Usage - binary sensor
+### Virtual Sensors
 
 detect power usage from smart plug, above a certain value we know machine is in use
-
-![img_4.png](img_4.png)
-
-### Usage Monitoring
-
 ![img_9.png](img_9.png)
 
-- on door open -> save timestamp
+### Automations
 
-### Energy Saving
-
-- on door open -> turn on smart plug
-- when heating stops for X minutes -> turn off smart plug
-
-![img_8.png](img_8.png)
+- when `microwave_door` changes to **OPEN** -> `turn on` smart plug
+- when `microwave_door` changes to **CLOSED** for `5 minutes`  -> `turn off` smart plug
