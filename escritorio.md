@@ -29,6 +29,8 @@ ligações:
 ![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
 ![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
 ![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/4ebf45d8-7796-483e-b2e2-dd9f6884be86)
+![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/07008376-0826-4853-b796-032038cb12b6)
 
 - PIR: 2
   - [IH012-RT01](https://www.zigbee2mqtt.io/devices/IH012-RT01.html#tuya-ih012-rt01)
@@ -40,8 +42,11 @@ ligações:
   - [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) right - 3 times 7 W lamps
 - Smart Plugs: 1
   - [plug ts011f](https://www.zigbee2mqtt.io/devices/TS011F_plug_1.html#tuya-ts011f_plug_1) - Stereo
-
-
+- Media Players: 1
+  - [RCA Bluetooth](https://pt.aliexpress.com/item/1005004256431511.html?) adapter  (Bluetooth Speaker)
+- Audio Output: 1
+  - Stereo - cassette + CD + [Bluetooth](https://pt.aliexpress.com/item/1005004256431511.html?)
+    
 Armarios;
 - Light Switch: 1
   - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0011_switch_module) closet - 1 times ? W lamps
