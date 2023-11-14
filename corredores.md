@@ -72,7 +72,7 @@ ligações corredor 3:
 
 ## Automations
 
-- if `PIR movement` changes to **ON** **+** is night time **+** hallways not sleeping-> turn on lights
-- if `PIR movement` changes to **OFF** for 5 minutes -> turn off lights
-- if `house_sleep` changes to **ON** -> turn off lights
+- if `PIR movement` changes to **ON** **+** is `night time` **+ NOT** `sleeping`-> `turn on` lights
+- if `PIR movement` changes to **OFF** for 5 minutes -> `turn off` lights
+- if `house_sleep` changes to **ON** -> `turn off` lights
 
