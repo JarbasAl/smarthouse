@@ -110,12 +110,15 @@ B.O.M.
 
 ## Smart Plugs
 
+some smart plugs report live energy consumption
+
 ### Marquise
 
 B.O.M.
 
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/ef5a673a-fb7a-417e-903f-7927a1d6c792)
 
+- [plug tplink HS110](https://www.tp-link.com/pt/home-networking/smart-plug/hs100/) - washing machine
 
 ## Linux Devices
 - MiniPC - can be considered a fixed cost, connected to a smart plug, or run [PowerGuess](https://github.com/OpenJarbas/powerguess) to provide an estimate
