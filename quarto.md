@@ -37,6 +37,8 @@ ligações:
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/50346f0a-e1f8-4ee0-a419-1e65b2e1627d)
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/8f8f7a9c-e560-4652-9d3b-784fe844c4df)
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/154a1e93-34b0-4408-8ab8-77c51683be78)
+![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/87360c2f-30dc-4607-8469-fab182e4712c)
+
 
 
 
@@ -60,6 +62,8 @@ ligações:
   - Hisense - 80 - 120 W
 - Remotes
   - [I8X plus](https://pt.aliexpress.com/item/1005001933350602.html) - USB remote Mouse and Keyboard (Raspberry pi 4)
+- Cameras: 1
+  - USB 1080p [Logitech C615](https://www.logitech.com/en-us/products/webcams/c615-webcam.960-000733.html) (Raspberry pi 4)
 - Audio Output: 1
   - TV - HDMI (Chromecast / Raspberry pi 4)
  
