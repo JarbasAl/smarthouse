@@ -21,7 +21,8 @@ ligações:
 
 ## B.O.M
 
-![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/9f571866-b072-4426-82d0-01e8c2e6f50d)
+
 
 - PIR: 1
 - Temperature: 1
@@ -29,6 +30,7 @@ ligações:
   - [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) left - 2 times 7 W lamps
   - [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) right - 2 times 7 W lamps
 - Smart Bulb: 1
+  - [bulb LB130](https://www.tp-link.com/pt/home-networking/smart-bulb/lb130/)
 - Dumb TV: 1
 
 Janelas:
