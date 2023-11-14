@@ -52,3 +52,15 @@ ligações:
 - if `house_sleep` changes to **ON** + `occupancy` is **OFF**-> `turn off` lights
   
 `occupancy` is explained [here](./how/occupancy.md)
+
+### Occupancy
+
+when any condition triggers -> `occupancy` changes to **on**:
+- PIR sensor (movement)
+- lights turn on
+- washing machine door opens
+- windows open/close
+
+`occupancy` does **NOT turn off** if:
+- ...
+
