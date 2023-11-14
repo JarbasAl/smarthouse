@@ -39,7 +39,7 @@ ligações:
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/e9dd71b6-b3ac-449e-a19e-7aa1ed7bbcad)
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/59d84c1b-16ef-4f25-a1a7-d327a15b70ac)
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/62c315ed-65bf-4302-91b3-6e4a24187e1a)
-![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/7453829d-2774-4741-9ab6-ca361fbd542d)
+![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/8c75a19e-ed64-45f4-b713-5be50ec8d202)
 
 
 
