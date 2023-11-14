@@ -60,7 +60,9 @@ ligações:
   - Hisense - 80 - 120 W
 - Remotes
   - [I8X plus](https://pt.aliexpress.com/item/1005001933350602.html) - USB remote Mouse and Keyboard (Raspberry pi 4)
-    
+- Audio Output: 1
+  - TV - HDMI (Chromecast / Raspberry pi 4)
+ 
 Armarios;
   - Light Switch: 1
     - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0011_switch_module) armario - 1 times ? W lamps
@@ -84,11 +86,11 @@ Janelas:
  
 ## Automations
 
-- if `occupancy` changes to **ON** **+** is night time **+** not sleeping -> turn on smart plug (candeeiro == light)
-- if `occupancy` changes to **OFF** -> turn off lights + turn off smart plug (candeeiro == light)
-- if `house_sleep` changes to **ON** -> turn off lights
-- if `button_click` -> toogle candeeiro
-- if `button_double_click` -> toogle `house_sleep`
+- if `occupancy` changes to **ON** **+** is `night_time` **+ NOT** `sleeping` -> `turn on` smart plug (candeeiro == light)
+- if `occupancy` changes to **OFF** -> `turn off` lights + `turn off` smart plug (candeeiro == light)
+- if `house_sleep` changes to **ON** -> `turn off` lights
+- if `button_click` -> `toogle` candeeiro
+- if `button_double_click` -> `toogle` house_sleep
 
 `occupancy` is explained [here](./how/occupancy.md)
     
