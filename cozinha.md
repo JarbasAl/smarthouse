@@ -102,7 +102,7 @@ Armarios; (dispensa)
 
 ## Automations
 
-- if `occupancy` changes to **ON** **+** is night time **+** kitchen not sleeping-> turn on lights
+- if `occupancy` changes to **ON** **+** is night time **+** not sleeping-> turn on lights
 - if `occupancy` changes to **OFF** -> turn off lights **+** turn off appliances (microwave / coffee machine)
 
 `occupancy` is explained [here](./how/occupancy.md)
