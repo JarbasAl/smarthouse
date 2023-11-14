@@ -26,6 +26,7 @@ ligações:
 ![hs100](https://github.com/JarbasAl/smarthouse/assets/33701864/3d4ff7ec-bcb5-47aa-9445-e024a4e34725)
 ![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
 ![zth2](https://www.zigbee2mqtt.io/images/devices/ZTH02.jpg)
+![zth2](https://www.zigbee2mqtt.io/images/devices/ZTH02.jpg)
 
 
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/d24afd4f-9da1-49ef-b683-4665ede887f1)
@@ -65,10 +66,15 @@ ligações:
 Janelas:
   - Window Contact: 2
   - Temperature: 1 (exterior)
+    - [ZTH02](https://www.zigbee2mqtt.io/devices/ZTH02.html#tuya-zth02)
 
 ### Software
 
 - [MiniPC U500-H](https://www.minisforum.com/Public/upload/files/2019-08-30/5d688d3e252e5.pdf)
+  - [Manjaro Linux](https://manjaro.org/) - Base Operating System
+  - Firefox - Youtube / Netflix
+    - [Sponsorblock](https://addons.mozilla.org/pt-PT/firefox/addon/sponsorblock/)
+    - [UBlock Origin](https://addons.mozilla.org/pt-PT/firefox/addon/ublock-origin)
   - [ovos-docker](https://openvoiceos.github.io/ovos-docker/) - Voice Assistant
   - [HomeAssistant](https://www.home-assistant.io) - Home Assistant
   - [Zigbee2MQTT](https://www.zigbee2mqtt.io/) - Zigbee control hub 
