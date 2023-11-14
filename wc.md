@@ -52,3 +52,18 @@ Janelas:
 - if `house_sleep` changes to **ON** + `occupancy` is **OFF**-> `turn off` lights
   
 `occupancy` is explained [here](./how/occupancy.md)
+
+### Occupancy
+
+when any condition triggers -> `occupancy` changes to **on**:
+- PIR sensor (movement)
+- lights turn on
+- windows open/close
+- water detected
+
+`occupancy` does **NOT turn off** if:
+- water detected
+- bath_probability > 70%
+
+when condition triggers **IF None of the above** -> `occupancy` changes to **off**:
+- lights turn off
