@@ -39,6 +39,7 @@ ligações corredor 3:
 ![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
 ![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg)
 ![repeater](https://www.zigbee2mqtt.io/images/devices/TS0207_repeater.jpg) 
+![zth2](https://www.zigbee2mqtt.io/images/devices/ZTH02.jpg)
 
 ### Corredor 1
 
@@ -50,6 +51,7 @@ ligações corredor 3:
 
 - PIR: 1
 - Temperature: 1
+  - [ZTH02](https://www.zigbee2mqtt.io/devices/ZTH02.html#tuya-zth02)
 - Light Switch: 1
   - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) 3 times 7 W lamps
 - ZigBee Repeater: 1

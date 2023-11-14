@@ -21,9 +21,11 @@ ligações:
 
 ![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
 ![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
+![zth2](https://www.zigbee2mqtt.io/images/devices/ZTH02.jpg)
 
 - PIR: 1
 - Temperature: 1
+  - [ZTH02](https://www.zigbee2mqtt.io/devices/ZTH02.html#tuya-zth02)
 - Light Switch: 2
   - [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) left - 3 times 7 W lamps
   - [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) right - 3 times 7 W lamps

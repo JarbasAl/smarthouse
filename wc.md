@@ -22,9 +22,11 @@ ligações:
 ![switch TS0011](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
 ![switch TS0011](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
 ![repeater](https://www.zigbee2mqtt.io/images/devices/TS0207_repeater.jpg)
+![zth2](https://www.zigbee2mqtt.io/images/devices/ZTH02.jpg)
 
 - PIR: 2
 - Temperature: 1
+  - [ZTH02](https://www.zigbee2mqtt.io/devices/ZTH02.html#tuya-zth02)
 - Light Switch: 2
   - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) - 1 times ? W lamps
   - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) espelho - 1 times ? W lamps

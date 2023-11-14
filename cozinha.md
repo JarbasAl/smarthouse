@@ -25,6 +25,7 @@ ligações:
 ![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
 ![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
 ![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
+![zth2](https://www.zigbee2mqtt.io/images/devices/ZTH02.jpg)
 ![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
 ![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
 ![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
@@ -34,6 +35,7 @@ ligações:
 
 - PIR: 3
 - Temperature: 1
+  - [ZTH02](https://www.zigbee2mqtt.io/devices/ZTH02.html#tuya-zth02)
 - Light Switch: 2
   - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) cozinha - 1 times ? W lamps
   - [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) cozinha 2 - 1 times ? W lamps   ( + 1 unused gang)
