@@ -27,6 +27,10 @@ ligações:
 ![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
 ![zth2](https://www.zigbee2mqtt.io/images/devices/ZTH02.jpg)
 ![zth2](https://www.zigbee2mqtt.io/images/devices/ZTH02.jpg)
+![pir](https://www.zigbee2mqtt.io/images/devices/IH012-RT01.jpg)
+![pir](https://www.zigbee2mqtt.io/images/devices/IH012-RT01.jpg)
+![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
 
 
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/d24afd4f-9da1-49ef-b683-4665ede887f1)
@@ -40,6 +44,8 @@ ligações:
 ### IOT
 
 - PIR: 2
+  - [IH012-RT01](https://www.zigbee2mqtt.io/devices/IH012-RT01.html#tuya-ih012-rt01) - entrance
+  - [IH012-RT01](https://www.zigbee2mqtt.io/devices/IH012-RT01.html#tuya-ih012-rt01) - couch
 - Temperature: 1
   - [ZTH02](https://www.zigbee2mqtt.io/devices/ZTH02.html#tuya-zth02)
 - Light Switch: 4
@@ -50,7 +56,7 @@ ligações:
 - Smart Bulb: 1
   - [plug tplink HS100](https://www.tp-link.com/pt/home-networking/smart-plug/hs100/) - 2 times ? W lamps
 - Smart Plugs: 1 
-  - [plug ts011f](https://www.zigbee2mqtt.io/devices/TS011F_plug_1.html#tuya-ts011f_plug_1) - TV / Stereo
+  - [plug TS011F](https://www.zigbee2mqtt.io/devices/TS011F_plug_1.html#tuya-ts011f_plug_1) - TV / Stereo
 - Led Strip: 1 (espelho)
 - HVAC: 1
 - IR Control: 1  (TV, HVAC)
@@ -65,6 +71,8 @@ ligações:
 
 Janelas:
   - Window Contact: 2
+    - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203) - window left
+    - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203) - window right
   - Temperature: 1 (exterior)
     - [ZTH02](https://www.zigbee2mqtt.io/devices/ZTH02.html#tuya-zth02)
 
