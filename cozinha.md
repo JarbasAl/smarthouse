@@ -81,6 +81,8 @@ ligações:
   - Playstation Eye USB - via Raspberry pi 4
 - Microphone: 1
   - Playstation Eye USB - via Raspberry pi 4
+- Audio Output: 1
+  - TV - HDMI (Raspberry pi 4)
      
 Armarios; (dispensa)
   - Light Switch: 1  
