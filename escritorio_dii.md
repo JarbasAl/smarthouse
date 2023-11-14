@@ -31,3 +31,11 @@ ligações:
   - [ZTH02](https://www.zigbee2mqtt.io/devices/ZTH02.html#tuya-zth02)
 - Light Switch: 1
   - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0011_switch_module) - 1 times ? W lamps
+
+
+## Automations
+
+- if `occupancy` changes to **ON** -> turn on lights
+- if `occupancy` changes to **OFF** -> turn off lights
+
+`occupancy` is explained [here](./how/occupancy.md)
