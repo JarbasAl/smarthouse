@@ -1,5 +1,25 @@
 # Casa do Miro e da Dii
 
+           WC da Dii               |
+             |                     | Territorio
+       Escritorio da Dii           | da
+             |                     | Dii
+          Marquise                 | 
+             |
+          Cozinha                      |
+             |                         |
+          Corredor 1                   |  Espaços
+            __________     Outside     |  Comuns
+            |        |       |         |
+            Sala    Corredor 2         |
+              ;     ________________
+              ;     |     |        |
+              ManCave  Escritorio  |            | Território Do Miro
+                                   Corredor 3     
+                                   _____________________
+                                   |      |            |
+                                   Quarto Quarto Hugo  WC     | Espaços Privados
+
 ## Menu
 
 - How it works
@@ -21,29 +41,3 @@
   - [marquise](./marquise.md)
   - [Escritorio da Dii](./escritorio_dii.md)
   - [WC da Dii](./wc_dii.md)
-
-## House Tree View
-
-
-           WC da Dii               |
-             |                     | Territorio
-       Escritorio da Dii           | da
-             |                     | Dii
-          Marquise                 | 
-             |
-          Cozinha                      |
-             |                         |
-          Corredor 1                   |  Espaços
-            __________     Outside     |  Comuns
-            |        |       |         |
-            Sala    Corredor 2         |
-              ;     ________________
-              ;     |     |        |
-              ManCave  Escritorio  |            | Território Do Miro
-                                   Corredor 3     
-                                   _____________________
-                                   |      |            |
-                                   Quarto Quarto Hugo  WC     | Espaços Privados
-
-
-
