@@ -26,6 +26,7 @@ ligações:
 ![pir](https://www.zigbee2mqtt.io/images/devices/IH012-RT01.jpg)
 ![pir](https://www.zigbee2mqtt.io/images/devices/IH012-RT01.jpg)
 ![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+![water](https://www.zigbee2mqtt.io/images/devices/TS0207_water_leak_detector_2.jpg)
 
 - PIR: 2
   - [IH012-RT01](https://www.zigbee2mqtt.io/devices/IH012-RT01.html#tuya-ih012-rt01) - toilet
@@ -37,7 +38,8 @@ ligações:
   - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) espelho - 1 times ? W lamps
 - ZigBee Repeater: 1
   - [TS0207](https://www.zigbee2mqtt.io/devices/TS0207_repeater.html) WC - 0.4W -> always on
-
+- Water Leak: 1
+  - [TS0207](https://www.zigbee2mqtt.io/devices/TS0207_water_leak_detector_2.html#tuya-ts0207_water_leak_detector_2) - bath
 
 Janelas:
 - Window Contact: 1
