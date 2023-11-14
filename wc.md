@@ -49,5 +49,6 @@ Janelas:
 
 - if `occupancy` changes to **ON** **+** not sleeping -> turn on light (espelho)
 - if `occupancy` changes to **OFF** -> turn off lights
-
+- if `house_sleep` changes to **ON** + `occupancy` is **OFF**-> turn off lights
+  
 `occupancy` is explained [here](./how/occupancy.md)
