@@ -1,5 +1,7 @@
 # Casa do Miro e da Dii
 
+Instruction Manual
+
            WC da Dii               |
              |                     | Territorio
        Escritorio da Dii           | da

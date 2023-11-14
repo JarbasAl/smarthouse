@@ -57,7 +57,7 @@ Janelas:
 
 ## Automations
 
-- if `occupancy` changes to **ON** **+** is `night time` **+ NOT** `sleeping` -> `turn on` lights
+- if `occupancy` changes to **ON** **+** is `night time` **+ NOT** `sleeping` **+** `lights off` -> `turn on` lights
 - if `occupancy` changes to **OFF** -> `turn off` lights
 - if `house_sleep` changes to **ON** + `occupancy` is **OFF**-> `turn off` lights + `turn off` smart plugs (stereo)
 - if `house_sleep` changes to **ON** + `occupancy` is **ON**-> `turn off` smart plugs (stereo)

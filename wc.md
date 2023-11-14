@@ -47,7 +47,7 @@ Janelas:
 
 ## Automations
 
-- if `occupancy` changes to **ON** **+** is `night_time` + **NOT** `sleeping` -> `turn on` light (espelho)
+- if `occupancy` changes to **ON** **+** is `night_time` + **NOT** `sleeping` **+** `lights off` -> `turn on` light (espelho)
 - if `occupancy` changes to **OFF** -> `turn off` lights
 - if `house_sleep` changes to **ON** + `occupancy` is **OFF**-> `turn off` lights
   
