@@ -105,3 +105,10 @@ Janelas:
   - [MiniDLNA](https://wiki.archlinux.org/title/ReadyMedia) - exposes files for streaming via DLNA
   - [zmq2mjpeg](https://github.com/OpenJarbas/zmq2mjpeg) - exposes object detection sensors and MJPEG cameras to HomeAssistant
 
+
+## Automations
+
+- if `occupancy` changes to **ON** -> turn on lights (quadros) + turn on smart plug (candeeiro == light)
+- if `occupancy` changes to **OFF** -> turn off lights + turn off smart plug (candeeiro == light)
+
+`occupancy` is explained [here](./how/occupancy.md)
