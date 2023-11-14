@@ -114,3 +114,20 @@ Janelas:
 - if `house_sleep` changes to **ON** + `occupancy` is **ON**-> `turn off` smart plugs (stereo, TV)
 
 `occupancy` is explained [here](./how/occupancy.md)
+
+### Occupancy
+
+when any condition triggers -> `occupancy` changes to **on**:
+- PIR sensor (movement)
+- lights turn on
+- windows open/close
+- TV starts playing (DLNA)
+- MiniPC application is_running change (spotify / firefox)
+- MiniPC playback changes (pulseaudio)
+
+`occupancy` does **NOT turn off** if:
+- MiniPC is playing (pulse audio), includes Stereo (bluetooth)
+- TV is playing (DLNA)
+
+when condition triggers **IF None of the above** -> `occupancy` changes to **off**:
+- lights turn off
