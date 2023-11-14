@@ -41,8 +41,7 @@ ligações:
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/59d84c1b-16ef-4f25-a1a7-d327a15b70ac)
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/62c315ed-65bf-4302-91b3-6e4a24187e1a)
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/8c75a19e-ed64-45f4-b713-5be50ec8d202)
-
-
+![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/50cdc0ca-32aa-4a3d-8ffe-b576217eaabe)
 
 
 ### IOT
@@ -75,11 +74,14 @@ ligações:
   - [RCA Bluetooth](https://pt.aliexpress.com/item/1005005917337257.html) adapter  (Bluetooth Speaker)
 - Remotes
   - [MX3 Air Mouse](https://pt.aliexpress.com/item/1005002652549274.html) - USB remote AirMouse and Keyboard (MiniPC)
-- Microphone: 1
-  - [MX3](https://pt.aliexpress.com/item/1005002652549274.html) - via MiniPC
+- Microphone: 2
+  - [MX3](https://pt.aliexpress.com/item/1005002652549274.html) - (MiniPC)
+  - USB 720p [Logitech C525](https://www.amazon.com/Logitech-Webcam-Portable-Calling-Autofocus/dp/B008QS9MRA) (MiniPC)
 - Audio Output: 2
   - Stereo - cassette + vinil + [Bluetooth](https://pt.aliexpress.com/item/1005005917337257.html) (MiniPC)
   - TV - DLNA + HDMI (MiniPC)
+- Cameras: 1
+  - USB 720p [Logitech C525](https://www.amazon.com/Logitech-Webcam-Portable-Calling-Autofocus/dp/B008QS9MRA) (MiniPC)
     
 Janelas:
   - Window Contact: 2
