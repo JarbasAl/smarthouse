@@ -26,6 +26,7 @@ ligações:
 ![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
 ![hs100](https://github.com/JarbasAl/smarthouse/assets/33701864/3d4ff7ec-bcb5-47aa-9445-e024a4e34725)
 ![zth2](https://www.zigbee2mqtt.io/images/devices/ZTH02.jpg)
+![zth2](https://www.zigbee2mqtt.io/images/devices/ZTH02.jpg)
 ![pir](https://www.zigbee2mqtt.io/images/devices/IH012-RT01.jpg)
 ![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
 ![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
