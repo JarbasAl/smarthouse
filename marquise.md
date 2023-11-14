@@ -28,6 +28,7 @@ ligações:
 ![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
 ![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
 ![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+![vibr](https://www.zigbee2mqtt.io/images/devices/TS0210.jpg)
 
 - PIR: 1 (TODO - 2)
   - [IH012-RT01](https://www.zigbee2mqtt.io/devices/IH012-RT01.html#tuya-ih012-rt01)
@@ -39,11 +40,12 @@ ligações:
   - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203) - window 2 left
   - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203) - window 2 right
 - Light Switch: 1 (in kitchen)
-- Smart Plugs: 1 (Washing Machine)
+- Smart Plugs: 1
   - [plug tplink HS110](https://www.tp-link.com/pt/home-networking/smart-plug/hs100/) - washing machine
-- Vibration Sensors: 1 (Washing Machine)
-- Door Sensors: 1 (Washing Machine)
-  - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203)
+- Vibration Sensors: 1 
+  - [TS0210](https://www.zigbee2mqtt.io/devices/TS0210.html#tuya-ts0210) - washing machine
+- Door Sensors: 1 
+  - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203) - washing machine
  
 ## Automations
 
