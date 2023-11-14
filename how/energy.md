@@ -61,6 +61,7 @@ B.O.M.
 ![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
 ![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
 ![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
 
 - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) cozinha - 1 times ? W lamps
 - [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) cozinha 2 - 1 times ? W lamps   ( + 1 unused gang)
@@ -73,16 +74,27 @@ B.O.M.
 
 ![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
 ![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
-![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
-![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
+![hs100](https://github.com/JarbasAl/smarthouse/assets/33701864/3d4ff7ec-bcb5-47aa-9445-e024a4e34725)
 
 - [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) tv - 3 times 7 W lamps
 - [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) meio - 3 times 7 W lamps
 - [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) mesa - 3 times 7 W lamps
 - [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) quadros - 2 times ? W lamps
-- plug 1 - 2 times ? W lamps
+- [plug tplink HS100](https://www.tp-link.com/pt/home-networking/smart-plug/hs100/) - 2 times ? W lamps
 
-  
+### Main Room
+
+B.O.M.
+
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
+![hs100](https://github.com/JarbasAl/smarthouse/assets/33701864/3d4ff7ec-bcb5-47aa-9445-e024a4e34725)
+
+- [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) left - 3 times 7 W lamps
+- [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) right - 3 times 7 W lamps
+- [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0011_switch_module) armario - 1 times ? W lamps
+- [plug tplink HS100](https://www.tp-link.com/pt/home-networking/smart-plug/hs100/) - 1 times ? W lamps
+
 ## Fixed costs
 
 For each always on device not connected to a sensor we can estimate a fixed cost, measure the consumption once and then create a sensor
@@ -94,6 +106,15 @@ B.O.M.
 
 ![repeater](https://www.zigbee2mqtt.io/images/devices/TS0207_repeater.jpg) 
 ![repeater](https://www.zigbee2mqtt.io/images/devices/TS0207_repeater.jpg)
+
+
+## Smart Plugs
+
+### Marquise
+
+B.O.M.
+
+![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/ef5a673a-fb7a-417e-903f-7927a1d6c792)
 
 
 ## Linux Devices
