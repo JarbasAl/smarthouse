@@ -70,3 +70,8 @@ ligações corredor 3:
   - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) 3 times 7 W lamps
 
 
+## Automations
+
+- if `PIR movement` changes to **ON** **+** is night time **+** hallways not sleeping-> turn on lights
+- if `PIR movement` changes to **OFF** for 5 minutes -> turn off lights
+
