@@ -111,5 +111,6 @@ Janelas:
 - if `occupancy` changes to **ON** **+** is `night_time` **+ NOT** `sleeping` -> `turn on` lights (quadros) + turn on` smart plug (candeeiro == light)
 - if `occupancy` changes to **OFF** -> turn off lights + `turn off` smart plug (candeeiro == light)
 - if `house_sleep` changes to **ON** + `occupancy` is **OFF**-> `turn off` lights + `turn off` smart plugs (candeeiro, stereo, TV)
+- if `house_sleep` changes to **ON** + `occupancy` is **ON**-> `turn off` smart plugs (stereo, TV)
 
 `occupancy` is explained [here](./how/occupancy.md)
