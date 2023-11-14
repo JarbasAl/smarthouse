@@ -38,7 +38,6 @@ ligações:
   - [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) quadros - 2 times ? W lamps
 - Smart Bulb: 1
   - [plug tplink HS100](https://www.tp-link.com/pt/home-networking/smart-plug/hs100/) - 2 times ? W lamps
-- MiniPC: 1  (home assistant)
 - Smart Plugs: 1  (media center)
   - [plug ts011f](https://www.zigbee2mqtt.io/devices/TS011F_plug_1.html#tuya-ts011f_plug_1) - TV / Stereo
 - Led Strip: 1 (espelho)
@@ -46,9 +45,11 @@ ligações:
 - IR Control: 1  (TV, HVAC)
 - Smart TV: 1
   - Hisense  - 80 - 120W
-- DLNA Players: 2
-  - MiniPC
-  - Smart TV
+- Media Players: 2
+  - MiniPC (DLNA / HDMI)
+  - Smart TV  (DLNA)
+- [HiveMind](https://jarbashivemind.github.io/HiveMind-community-docs/) Devices (Voice Assistant): 1
+  - MiniPC ([ovos-docker](https://openvoiceos.github.io/ovos-docker/))
 
 Janelas:
   - Window Contact: 2
