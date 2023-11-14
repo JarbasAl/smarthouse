@@ -23,8 +23,11 @@ ligações:
 
 ![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
 ![zth2](https://www.zigbee2mqtt.io/images/devices/ZTH02.jpg)
+![pir](https://www.zigbee2mqtt.io/images/devices/IH012-RT01.jpg)
+![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
 
 - PIR: 1
+  - [IH012-RT01](https://www.zigbee2mqtt.io/devices/IH012-RT01.html#tuya-ih012-rt01) 
 - Temperature: 1
   - [ZTH02](https://www.zigbee2mqtt.io/devices/ZTH02.html#tuya-zth02)
 - Light Switch: 2
@@ -36,3 +39,4 @@ ligações:
 
 Janelas:
     - Window Contact: 1
+      - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203)
