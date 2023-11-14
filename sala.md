@@ -67,8 +67,8 @@ ligações:
 - Zigbee Relays: 1
   - [Sonoff](https://pt.aliexpress.com/item/1005003606832844.html) (MiniPC)
 - Media Players: 3
-  - [MiniPC U500-H](https://www.minisforum.com/Public/upload/files/2019-08-30/5d688d3e252e5.pdf) (DLNA)
-  - Smart TV  (DLNA)
+  - [MiniPC U500-H](https://www.minisforum.com/Public/upload/files/2019-08-30/5d688d3e252e5.pdf) (DLNA audio / Spotify)
+  - Smart TV  (DLNA video + audio)
   - [RCA Bluetooth](https://pt.aliexpress.com/item/1005005917337257.html) adapter  (Bluetooth Speaker)
 - Remotes
   - [MX3 Air Mouse](https://pt.aliexpress.com/item/1005002652549274.html) - USB remote AirMouse and Keyboard (MiniPC)
