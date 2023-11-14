@@ -44,3 +44,10 @@ ligações:
 Janelas:
 - Window Contact: 1
   - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203) - window
+
+## Automations
+
+- if `occupancy` changes to **ON** -> turn on light (espelho)
+- if `occupancy` changes to **OFF** -> turn off lights
+
+`occupancy` is explained [here](./how/occupancy.md)
