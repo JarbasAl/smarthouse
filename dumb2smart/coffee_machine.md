@@ -39,6 +39,13 @@ detect power usage from smart plug, above a certain value we know machine is hea
 
 ![img_2.png](img_2.png)
 
+
+### Coffee Machine State Sensor
+
+Trigger sensor implemented via automations
+
+![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/3a7b1a4c-cad5-48ac-887f-8a0c59361a59)
+
 ### Automations
 
 - when `coffee_machine_switch` is **OFF** + `coffee_machine_capsule_holder` changes to **OPEN** -> `turn on` smart plug
@@ -49,6 +56,6 @@ detect power usage from smart plug, above a certain value we know machine is hea
 - when `coffee_machine_capsule_state` changes to **READY** for 20 minutes -> `turn off` smart plug + `notify` "forgot used capsule"
 - when `coffee_machine_switch` changes to **OFF** + `low_water` is **ON** -> `notify` "low water"
 
-![img_6.png](img_6.png)
+
 
 
