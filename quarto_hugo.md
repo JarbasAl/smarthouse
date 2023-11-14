@@ -19,12 +19,18 @@ ligações:
 
 ## B.O.M
 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
+
 - PIR: 1
 - Temperature: 1
 - Light Switch: 2
+  - [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) left - 3 times 7 W lamps
+  - [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) right - 3 times 7 W lamps
 
 Armarios;
   - Light Switch: 1
+    - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0011_switch_module) closet - 1 times ? W lamps
   - Door Contact: 0 - (TODO - 1)
 
 Janelas:

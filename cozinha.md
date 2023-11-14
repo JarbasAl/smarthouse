@@ -24,14 +24,35 @@ ligações:
 
 ## B.O.M
 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
+![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
+![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
+![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
+![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
+![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
+![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
+
 - PIR: 3
 - Temperature: 1
 - Light Switch: 2
-- Smart Plugs: 7 (fridge | freezer | coffee | microwave | dishwasher | air fryer)
+  - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) cozinha - 1 times ? W lamps
+  - [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) cozinha 2 - 1 times ? W lamps   ( + 1 unused gang)
+  - [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) marquise - 1 times ? W lamps   ( + 1 unused gang)
+- Smart Plugs: 6 
+  - [plug ts011f](https://www.zigbee2mqtt.io/devices/TS011F_plug_1.html#tuya-ts011f_plug_1) - microwave
+  - [plug ts011f](https://www.zigbee2mqtt.io/devices/TS011F_plug_1.html#tuya-ts011f_plug_1) - fridge
+  - [plug ts011f](https://www.zigbee2mqtt.io/devices/TS011F_plug_1.html#tuya-ts011f_plug_1) - freezer
+  - [plug ts011f](https://www.zigbee2mqtt.io/devices/TS011F_plug_1.html#tuya-ts011f_plug_1) - dishwasher
+  - [plug ts011f](https://www.zigbee2mqtt.io/devices/TS011F_plug_1.html#tuya-ts011f_plug_1) - coffee machine
+  - [plug ts011f](https://www.zigbee2mqtt.io/devices/TS011F_plug_1.html#tuya-ts011f_plug_1) - air fryer
 - Door Sensors: 4 (fridge | fridge_freezer | freezer | microwave)
 
 Armarios; (dispensa)
   - Light Switch: 1  
+    - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) dispensa - 1 times ? W lamps
   - Door Contact: 0 - (TODO - 1)
   - Window Contact: 0 - (TODO - 1)
 

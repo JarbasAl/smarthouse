@@ -21,6 +21,9 @@ ligações:
 
 ## B.O.M
 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
+
 - PIR: 1
 - Temperature: 1
 - Light Switch: 1
+  - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0011_switch_module) - 1 times ? W lamps

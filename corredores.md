@@ -35,20 +35,30 @@ ligações corredor 3:
 
 ## B.O.M
 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg)
+![repeater](https://www.zigbee2mqtt.io/images/devices/TS0207_repeater.jpg) 
+
 ### Corredor 1
 
 - PIR: 1
 - Light Switch: 1
+  - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) 1 times 7 W lamps
 
 ### Corredor 2
 
 - PIR: 1
 - Temperature: 1
 - Light Switch: 1
+  - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) 3 times 7 W lamps
 - ZigBee Repeater: 1
+  - [zigbee repeater TS0207](https://www.zigbee2mqtt.io/devices/TS0207_repeater.html) Hallway - 0.4W -> always on
 
 ### Corredor 3
 
 - PIR: 1
 - Light Switch: 1
+  - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) 3 times 7 W lamps
+
 

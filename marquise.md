@@ -22,10 +22,13 @@ ligações:
 
 ## B.O.M
 
+![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/ef5a673a-fb7a-417e-903f-7927a1d6c792)
+
 - PIR: 1 (TODO - 2)
 - Temperature: 1
 - Window Contact: 4
-- Light Switch: 1
+- Light Switch: 1 (in kitchen)
 - Smart Plugs: 1 (Washing Machine)
+  - [plug tplink HS110](https://www.tp-link.com/pt/home-networking/smart-plug/hs100/) - washing machine
 - Vibration Sensors: 1 (Washing Machine)
 - Door Sensors: 1 (Washing Machine)

@@ -1,7 +1,5 @@
 # WC
 
-
-
 ## Menu
 
 - [Home](./readme.md)
@@ -21,10 +19,18 @@ ligações:
 
 ## B.O.M
 
+![switch TS0011](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
+![switch TS0011](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
+![repeater](https://www.zigbee2mqtt.io/images/devices/TS0207_repeater.jpg)
+
 - PIR: 2
 - Temperature: 1
 - Light Switch: 2
+  - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) - 1 times ? W lamps
+  - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) espelho - 1 times ? W lamps
 - ZigBee Repeater: 1
+  - [TS0207](https://www.zigbee2mqtt.io/devices/TS0207_repeater.html) WC - 0.4W -> always on
+
 
 Janelas:
   - Window Contact: 1
