@@ -25,6 +25,7 @@ ligações:
 ![zth2](https://www.zigbee2mqtt.io/images/devices/ZTH02.jpg)
 ![pir](https://www.zigbee2mqtt.io/images/devices/IH012-RT01.jpg)
 ![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/27e3892f-187d-43be-9126-c5780d415972)
 
 - PIR: 1
   - [IH012-RT01](https://www.zigbee2mqtt.io/devices/IH012-RT01.html#tuya-ih012-rt01) 
