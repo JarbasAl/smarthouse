@@ -1,8 +1,5 @@
 # Cozinha
 
-![img_9.png](img_9.png)
-
-
 ## Menu
 
 - [Home](./readme.md)
