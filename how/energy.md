@@ -8,7 +8,7 @@
   - [Software](software.md)
   - [Lights](lights.md)
   - [Occupancy](occupancy.md)
-  - [Energy Monitoring](energy.md)
+  - [Inventory](inventory.md)
 - Dumb2Smart
   - [Microwave](../dumb2smart/microwave.md)
   - [Coffee Machine](../dumb2smart/coffee_machine.md)

@@ -6,6 +6,7 @@
   - [Lights](../how/lights.md)
   - [Occupancy](../how/occupancy.md)
   - [Software](../how/software.md)
+  - [Inventory](../how/inventory.md)
 - Dumb2Smart
   - [Microwave](./microwave.md)
 
@@ -50,11 +51,12 @@ Trigger sensor implemented via automations
 
 - when `coffee_machine_switch` is **OFF** + `coffee_machine_capsule_holder` changes to **OPEN** -> `turn on` smart plug
 - when `coffee_machine_switch` changes to **ON** + `low_water` is **ON** -> `turn off` smart plug
-- when `coffee_machine_capsule_state` changes to **COFFEE** -> update timestamp of `last_coffee_timestamp` 
-- when `last_coffee_timestamp` changes -> `deduct_from_inventory` 1 coffee
-- when `coffee_machine_switch` is **ON** + `coffee_machine_capsule_holder` changes to **OPEN** -> `turn off` smart plug + `notify` "enjoy your coffee"
-- when `coffee_machine_capsule_state` changes to **READY** for 20 minutes -> `turn off` smart plug + `notify` "forgot used capsule"
 - when `coffee_machine_switch` changes to **OFF** + `low_water` is **ON** -> `notify` "low water"
+- when `coffee_machine_capsule_state` changes to **COFFEE** -> update timestamp of `last_coffee_timestamp` 
+- when `coffee_machine_capsule_state` is **USED** + `coffee_machine_capsule_holder` changes to **OPEN** -> `turn off` smart plug + `notify` "enjoy your coffee"
+- when `coffee_machine_capsule_state` changes to **USED** for 5 minutes -> `notify` "forgot used capsule"
+- when `coffee_machine_capsule_state` changes to **USED** for 20 minutes -> `turn off` smart plug + `notify` "forgot used capsule"
+
 
 
 

@@ -6,6 +6,7 @@
   - [Lights](../how/lights.md)
   - [Occupancy](../how/occupancy.md)
   - [Software](../how/software.md)
+  - [Inventory](../how/inventory.md)
 - Dumb2Smart
   - [Coffee Machine](./coffee_machine.md)
 
