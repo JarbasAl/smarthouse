@@ -85,7 +85,7 @@ Armarios; (dispensa)
   - [ovos-raspbian](https://github.com/OpenVoiceOS/raspbian-ovos) - Base Operating System / Voice Assistant
   - [ovos-shell](https://github.com/OpenVoiceOS/ovos-shell) - GUI  (via EGLFS)
   - [HiveMind](https://jarbashivemind.github.io/HiveMind-community-docs/) - Notify via Home Assistant
-  - [ovos-PHAL-sensors](https://github.com/OpenVoiceOS/ovos-PHAL-sensors) - MiniPC sensors in Home Assistant
+  - [ovos-PHAL-sensors](https://github.com/OpenVoiceOS/ovos-PHAL-sensors) - RPI sensors in Home Assistant
   - [PowerGuess](https://github.com/OpenJarbas/powerguess) - fake power consumption in Home Assistant
   - [Spotifyd](https://github.com/Spotifyd/spotifyd) . accepts audio streaming from spotify
     
