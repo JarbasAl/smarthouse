@@ -35,9 +35,9 @@ ligações:
 
 
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/d24afd4f-9da1-49ef-b683-4665ede887f1)
-![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/59d84c1b-16ef-4f25-a1a7-d327a15b70ac)
-![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/95c89b35-edb0-457d-8df5-bd5d244b3358)
+![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/0f9fd8cb-3340-412e-b7b1-9af465c7b926)
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/e9dd71b6-b3ac-449e-a19e-7aa1ed7bbcad)
+![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/59d84c1b-16ef-4f25-a1a7-d327a15b70ac)
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/62c315ed-65bf-4302-91b3-6e4a24187e1a)
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/7453829d-2774-4741-9ab6-ca361fbd542d)
 
