@@ -24,6 +24,7 @@ ligações:
 
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/ef5a673a-fb7a-417e-903f-7927a1d6c792)
 ![zth2](https://www.zigbee2mqtt.io/images/devices/ZTH02.jpg)
+![pir](https://www.zigbee2mqtt.io/images/devices/IH012-RT01.jpg)
 ![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
 ![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
 ![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
@@ -31,6 +32,7 @@ ligações:
 ![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
 
 - PIR: 1 (TODO - 2)
+  - [IH012-RT01](https://www.zigbee2mqtt.io/devices/IH012-RT01.html#tuya-ih012-rt01)
 - Temperature: 1
   - [ZTH02](https://www.zigbee2mqtt.io/devices/ZTH02.html#tuya-zth02)
 - Window Contact: 4
