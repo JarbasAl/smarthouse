@@ -133,3 +133,6 @@ when any condition triggers -> `occupancy` changes to **on**:
 - microwave door is open
 - microwave is heating
 - coffee machine is heating
+
+when condition triggers **IF None of the above** -> `occupancy` changes to **off**:
+- lights turn off
