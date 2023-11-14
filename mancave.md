@@ -55,7 +55,10 @@ Janelas:
 when any condition triggers -> `occupancy` changes to **on**:
 - PIR sensor (movement)
 - lights turn on
-
+- windows open/close
+  
 `occupancy` does **NOT turn off** if:
 - ...
 
+when condition triggers **IF None of the above** -> `occupancy` changes to **off**:
+- lights turn off
