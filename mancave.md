@@ -38,5 +38,5 @@ ligações:
 - Dumb TV: 1
 
 Janelas:
-    - Window Contact: 1
-      - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203)
+- Window Contact: 1
+  - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203)
