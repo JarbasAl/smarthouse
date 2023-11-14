@@ -32,6 +32,8 @@ ligações:
 ![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
 ![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
 ![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
+![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/d24afd4f-9da1-49ef-b683-4665ede887f1)
+![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/8f8f7a9c-e560-4652-9d3b-784fe844c4df)
 
 - PIR: 3
 - Temperature: 1
@@ -48,7 +50,11 @@ ligações:
   - [plug ts011f](https://www.zigbee2mqtt.io/devices/TS011F_plug_1.html#tuya-ts011f_plug_1) - coffee machine
   - [plug ts011f](https://www.zigbee2mqtt.io/devices/TS011F_plug_1.html#tuya-ts011f_plug_1) - air fryer
 - Door Sensors: 4 (fridge | fridge_freezer | freezer | microwave)
-
+- Dumb TV: 1
+  - Hisense - 80 - 120 W  (vertical)
+- Media Players: 1
+  - Raspberry pi 4  (HDMI 1)
+    
 Armarios; (dispensa)
   - Light Switch: 1  
     - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) dispensa - 1 times ? W lamps
