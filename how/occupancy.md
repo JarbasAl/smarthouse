@@ -5,9 +5,9 @@
 
 - [Home](../readme.md)
 - How it works
-  - [Software](./how/software.md)
-  - [Lights](./how/lights.md)
-  - [Occupancy](./how/occupancy.md)
+  - [Software](software.md)
+  - [Lights](lights.md)
+  - [Occupancy](occupancy.md)
   - [Energy Monitoring](energy.md)
 - Dumb2Smart
   - [Microwave](../dumb2smart/microwave.md)
@@ -15,29 +15,19 @@
 
 
 *Welcome to my home automation journey! Today, I'll guide you through setting up a smart occupancy detection system that is not only convenient but also energy-efficient. 
-In this system, occupancy sensors are turned on by various triggers, but they are only turned off when corridor sensors detect movement, serving as choke points signaling room transitions.*
+In this system, occupancy sensors are turned on by various triggers, and turned off when no activities are detected for some time
 
 # Setup
 
 Imagine a home that responds to your presence, turning on lights and adjusting the environment to your liking, and then intelligently turning off devices when you leave a room. 
 It's more than just convenient; it's a greener, more efficient way to live.
 
-## What You'll Need
-
-Here are the key components for this project:
-
-- **Home Assistant**: If you haven't already, set up Home Assistant on your chosen hardware. Home Assistant will be the control center for your smart home devices and automations.
-- **PIR (Passive Infrared) Sensors**: PIR sensors are essential for detecting motion in rooms. You'll need one sensor for each room you want to monitor.
-- **Corridor Sensors**: You'll need corridor sensors to serve as choke points for turning off room occupancy sensors.
-- **Binary Sensors**: Create binary sensors in Home Assistant for each room to track occupancy status. These sensors will indicate whether a room is occupied or not.
-- **Optional Smart Devices**: You can integrate other smart devices such as smart lights and media players to enhance your automation. When a device is used turn on room occupancy sensors or block occupancy from being turned off
-
 ![imagem](https://user-images.githubusercontent.com/33701864/278898711-c8c6ec8c-7868-4ebf-86b1-805d486d1fcd.png)
 
 
 ## Configuring PIR Sensors
 
-1. **Connect PIR Sensors**: Follow the manufacturer's instructions connect your PIR sensors to Home Assistant. We use Zigbee sensors
+1. **Connect PIR Sensors**: Follow the manufacturer's instructions connect your PIR sensors to Home Assistant. We use Zigbee sensors, so this is done in zigbee2mqtt
 2. **Home Assistant Configuration**: In your Home Assistant configuration, create binary sensors for each room. Here's an example YAML configuration for a binary sensor in a room named "Sala":
 
 ```yaml
