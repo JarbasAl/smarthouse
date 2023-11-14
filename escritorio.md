@@ -68,3 +68,15 @@ Janelas:
 - if `house_sleep` changes to **ON** + `occupancy` is **ON**-> `turn off` smart plugs (stereo)
 
 `occupancy` is explained [here](./how/occupancy.md)
+
+
+### Occupancy
+
+when any condition triggers -> `occupancy` changes to **on**:
+- stereo turns on
+- windows open/close
+- PIR sensor (movement)
+- lights on
+
+`occupancy` does **NOT turn off** if:
+- ...
