@@ -116,13 +116,20 @@ Armarios; (dispensa)
 
 ### Occupancy
 
-when any condition triggers -> cozinha occupancy is **on**:
-- fridge door open
-- freezer door open
-- microwave door open
-- microwave heating
+when any condition triggers -> `occupancy` changes to **on**:
+- fridge door opens/closes
+- freezer door opens/closes
+- microwave door opens/closes
+- microwave changes to heating
 - coffee machine capsule holder open
 - coffee machine turn on
 - coffee machine heating
 - PIR sensor (movement)
-- lights on
+- lights change to on
+
+`occupancy` does **NOT turn off** if:
+- fridge door is open
+- freezer door is open
+- microwave door is open
+- microwave is heating
+- coffee machine is heating
