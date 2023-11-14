@@ -27,6 +27,8 @@ ligações:
 ![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
 ![zth2](https://www.zigbee2mqtt.io/images/devices/ZTH02.jpg)
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/d24afd4f-9da1-49ef-b683-4665ede887f1)
+![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/59d84c1b-16ef-4f25-a1a7-d327a15b70ac)
+
 
 - PIR: 2
 - Temperature: 1
@@ -46,11 +48,13 @@ ligações:
 - Smart TV: 1
   - Hisense  - 80 - 120W
 - Media Players: 2
-  - MiniPC (DLNA / HDMI)
+  - [MiniPC U500-H](https://www.minisforum.com/Public/upload/files/2019-08-30/5d688d3e252e5.pdf) (DLNA / HDMI)
   - Smart TV  (DLNA)
-- [HiveMind](https://jarbashivemind.github.io/HiveMind-community-docs/) Devices (Voice Assistant): 1
-  - MiniPC ([ovos-docker](https://openvoiceos.github.io/ovos-docker/))
 
 Janelas:
   - Window Contact: 2
   - Temperature: 1 (exterior)
+
+[HiveMind](https://jarbashivemind.github.io/HiveMind-community-docs/) Devices (Voice Assistant): 1
+  - [MiniPC U500-H](https://www.minisforum.com/Public/upload/files/2019-08-30/5d688d3e252e5.pdf) - [ovos-docker](https://openvoiceos.github.io/ovos-docker/)
+
