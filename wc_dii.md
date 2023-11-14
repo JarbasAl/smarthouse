@@ -34,5 +34,6 @@ ligações:
 
 - if `occupancy` changes to **ON** **+** is night time **+** not sleeping -> turn on lights
 - if `occupancy` changes to **OFF** -> turn off lights
+- if `house_sleep` changes to **ON** -> turn off lights
 
 `occupancy` is explained [here](./how/occupancy.md)
