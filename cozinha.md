@@ -34,8 +34,20 @@ ligações:
 ![imagem](https://www.zigbee2mqtt.io/images/devices/TS011F_plug_1.jpg)
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/d24afd4f-9da1-49ef-b683-4665ede887f1)
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/8f8f7a9c-e560-4652-9d3b-784fe844c4df)
+![pir](https://www.zigbee2mqtt.io/images/devices/IH012-RT01.jpg)
+![pir](https://www.zigbee2mqtt.io/images/devices/IH012-RT01.jpg)
+![pir](https://www.zigbee2mqtt.io/images/devices/IH012-RT01.jpg)
+![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
+![contact](https://www.zigbee2mqtt.io/images/devices/TS0203.jpg)
 
 - PIR: 3
+  - [IH012-RT01](https://www.zigbee2mqtt.io/devices/IH012-RT01.html#tuya-ih012-rt01) - entrance
+  - [IH012-RT01](https://www.zigbee2mqtt.io/devices/IH012-RT01.html#tuya-ih012-rt01) - under the TV
+  - [IH012-RT01](https://www.zigbee2mqtt.io/devices/IH012-RT01.html#tuya-ih012-rt01) - marquise door
 - Temperature: 1
   - [ZTH02](https://www.zigbee2mqtt.io/devices/ZTH02.html#tuya-zth02)
 - Light Switch: 2
@@ -49,21 +61,34 @@ ligações:
   - [plug ts011f](https://www.zigbee2mqtt.io/devices/TS011F_plug_1.html#tuya-ts011f_plug_1) - dishwasher
   - [plug ts011f](https://www.zigbee2mqtt.io/devices/TS011F_plug_1.html#tuya-ts011f_plug_1) - coffee machine
   - [plug ts011f](https://www.zigbee2mqtt.io/devices/TS011F_plug_1.html#tuya-ts011f_plug_1) - air fryer
-- Door Sensors: 4 (fridge | fridge_freezer | freezer | microwave)
+- Door Sensors: 5
+    - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203) - fridge
+    - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203) - fridge 2 (freezer)
+    - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203) - freezer
+    - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203) - microwave
+    - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203) - coffee machine
 - Dumb TV: 1
   - Hisense - 80 - 120 W  (vertical)
 - Media Players: 1
   - Raspberry pi 4  (HDMI 1)
-- [HiveMind](https://jarbashivemind.github.io/HiveMind-community-docs/) Devices (Voice Assistant): 1
-  - Raspberry pi 4 ([ovos-raspbian](https://github.com/OpenVoiceOS/raspbian-ovos))
      
 Armarios; (dispensa)
   - Light Switch: 1  
     - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) dispensa - 1 times ? W lamps
-  - Door Contact: 0 - (TODO - 1)
+  - Door Contact: 1
+    - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203) - coffee machine
   - Window Contact: 0 - (TODO - 1)
 
+### Software
 
+- Raspberry pi 4
+  - [ovos-raspbian](https://github.com/OpenVoiceOS/raspbian-ovos) - Base Operating System / Voice Assistant
+  - [ovos-shell](https://github.com/OpenVoiceOS/ovos-shell) - GUI  (via EGLFS)
+  - [HiveMind](https://jarbashivemind.github.io/HiveMind-community-docs/) - Notify via Home Assistant
+  - [ovos-PHAL-sensors](https://github.com/OpenVoiceOS/ovos-PHAL-sensors) - MiniPC sensors in Home Assistant
+  - [PowerGuess](https://github.com/OpenJarbas/powerguess) - fake power consumption in Home Assistant
+  - [Spotifyd](https://github.com/Spotifyd/spotifyd) . accepts audio streaming from spotify
+    
 ## Automations
 
 ### Occupancy
