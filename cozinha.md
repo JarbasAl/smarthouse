@@ -70,7 +70,7 @@ ligações:
 - Dumb TV: 1
   - Hisense - 80 - 120 W  (vertical)
 - Media Players: 1
-  - Raspberry pi 4  (HDMI 1)
+  - Raspberry pi 4  (HDMI 1 / Spotify)
      
 Armarios; (dispensa)
   - Light Switch: 1  
