@@ -40,4 +40,5 @@ ligações:
 
 
 Janelas:
-  - Window Contact: 1
+- Window Contact: 1
+  - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203) - window left
