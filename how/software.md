@@ -2,13 +2,13 @@
 
 ## Menu
 
-- [Home](./readme.md)
+- [Home](../readme.md)
 - How it works
-  - [Lights](./lights.md)
-  - [Occupancy](./occupancy.md)
+  - [Lights](lights.md)
+  - [Occupancy](occupancy.md)
 - Dumb2Smart
-  - [Microwave](./dumb2smart/microwave.md)
-  - [Coffee Machine](./dumb2smart/coffee_machine.md)
+  - [Microwave](../dumb2smart/microwave.md)
+  - [Coffee Machine](../dumb2smart/coffee_machine.md)
 
 
 ## Software Stack

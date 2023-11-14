@@ -3,13 +3,14 @@
 
 ## Menu
 
-- [Home](./readme.md)
+- [Home](../readme.md)
 - How it works
-  - [Software](./software.md)
-  - [Lights](./lights.md)
+  - [Software](./how/software.md)
+  - [Lights](./how/lights.md)
+  - [Occupancy](./how/occupancy.md)
 - Dumb2Smart
-  - [Microwave](./dumb2smart/microwave.md)
-  - [Coffee Machine](./dumb2smart/coffee_machine.md)
+  - [Microwave](../dumb2smart/microwave.md)
+  - [Coffee Machine](../dumb2smart/coffee_machine.md)
 
 
 *Welcome to my home automation journey! Today, I'll guide you through setting up a smart occupancy detection system that is not only convenient but also energy-efficient. 
@@ -81,7 +82,7 @@ Repeat this process for each room, ensuring that corridor sensors are set up as 
 
 PIR sensor automations overview
 
-![img_10.png](img_10.png)
+![img_10.png](../img_10.png)
 
 
                WC da Dii <- people_wc_dii_update:ON + people_escritorio_dii_update:OFF

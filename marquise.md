@@ -6,9 +6,9 @@
 
 - [Home](./readme.md)
 - How it works
-  - [Software](./software.md)
-  - [Lights](./lights.md)
-  - [Occupancy](./occupancy.md)
+  - [Software](./how/software.md)
+  - [Lights](./how/lights.md)
+  - [Occupancy](./how/occupancy.md)
 - Dumb2Smart
   - [Microwave](./dumb2smart/microwave.md)
   - [Coffee Machine](./dumb2smart/coffee_machine.md)

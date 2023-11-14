@@ -3,8 +3,9 @@
 ## Menu
 
 - How it works
-  - [Lights](../lights.md)
-  - [Occupancy](../occupancy.md)
+  - [Lights](../how/lights.md)
+  - [Occupancy](../how/occupancy.md)
+  - [Software](../how/software.md)
 - Dumb2Smart
   - [Microwave](./microwave.md)
 
@@ -22,8 +23,9 @@
 ### Energy Saving
 
 - when usage stops for X minutes -> turn off smart plug
+- when capsule holder opens -> turn on smart plug
 
-### Usage - binary sensor
+### Heating - binary sensor
 
 detect power usage from smart plug, above a certain value we know machine is in use
 

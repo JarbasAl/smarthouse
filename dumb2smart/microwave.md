@@ -3,8 +3,9 @@
 ## Menu
 
 - How it works
-  - [Lights](../lights.md)
-  - [Occupancy](../occupancy.md)
+  - [Lights](../how/lights.md)
+  - [Occupancy](../how/occupancy.md)
+  - [Software](../how/software.md)
 - Dumb2Smart
   - [Coffee Machine](./coffee_machine.md)
 
