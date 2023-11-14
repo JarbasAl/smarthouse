@@ -1,7 +1,6 @@
-# Escritorio da Dii
+# Dii's Workspace
 
-
-## Menu
+## Navigation
 
 - [Home](./readme.md)
 - How it works
@@ -13,7 +12,7 @@
   - [Microwave](./dumb2smart/microwave.md)
   - [Coffee Machine](./dumb2smart/coffee_machine.md)
   - 
-## Ligações
+## Room Connections
 
 ligações:
 - [WC da Dii](./wc_dii.md)

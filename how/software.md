@@ -1,6 +1,6 @@
 # Software
 
-## Menu
+## Navigation
 
 - [Home](../readme.md)
 - How it works

@@ -1,8 +1,6 @@
 # Marquise
 
-
-
-## Menu
+## Navigation
 
 - [Home](./readme.md)
 - How it works
@@ -14,7 +12,7 @@
   - [Microwave](./dumb2smart/microwave.md)
   - [Coffee Machine](./dumb2smart/coffee_machine.md)
 
-## Ligações
+## Room Connections
 
 ligações:
 - [Escritorio da Dii](./escritorio_dii.md)

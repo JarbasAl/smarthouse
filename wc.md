@@ -1,6 +1,6 @@
 # WC
 
-## Menu
+## Navigation
 
 - [Home](./readme.md)
 - How it works
@@ -12,7 +12,7 @@
   - [Microwave](./dumb2smart/microwave.md)
   - [Coffee Machine](./dumb2smart/coffee_machine.md)
 
-# Ligaçóes
+# Room Connections
 
 ligações:
 - [corredor 3](./corredores.md)

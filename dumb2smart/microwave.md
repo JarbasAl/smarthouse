@@ -1,6 +1,6 @@
 # Microwave
 
-## Menu
+## Navigation
 
 - How it works
   - [Lights](../how/lights.md)

@@ -22,7 +22,7 @@ Instruction Manual
                                    |      |            |
                                    Quarto Quarto Hugo  WC     | Espaços Privados
 
-## Menu
+## Navigation
 
 - How it works
   - [Software](./how/software.md)

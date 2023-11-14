@@ -1,6 +1,6 @@
-# Escritorio
+# Miro's Workspace
 
-## Menu
+## Navigation
 
 - [Home](./readme.md)
 - How it works
@@ -12,7 +12,7 @@
   - [Microwave](./dumb2smart/microwave.md)
   - [Coffee Machine](./dumb2smart/coffee_machine.md)
 
-## Ligações
+## Room Connections
 
 ligações:
 - [corredor 2](./corredores.md)
