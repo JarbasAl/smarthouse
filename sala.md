@@ -38,6 +38,8 @@ ligações:
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/95c89b35-edb0-457d-8df5-bd5d244b3358)
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/e9dd71b6-b3ac-449e-a19e-7aa1ed7bbcad)
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/62c315ed-65bf-4302-91b3-6e4a24187e1a)
+![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/7453829d-2774-4741-9ab6-ca361fbd542d)
+
 
 
 
@@ -68,6 +70,8 @@ ligações:
   - [MiniPC U500-H](https://www.minisforum.com/Public/upload/files/2019-08-30/5d688d3e252e5.pdf) (DLNA / HDMI)
   - Smart TV  (DLNA)
   - Hitachi Stereo + [RCA Bluetooth](https://pt.aliexpress.com/item/1005005917337257.html) adapter
+- Remotes
+  - [MX3 Air Mouse](https://pt.aliexpress.com/item/1005002652549274.html) - USB remote AirMouse and Keyboard (MiniPC)
 
 Janelas:
   - Window Contact: 2
