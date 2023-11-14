@@ -23,32 +23,32 @@
   - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203)
   
 ## Features:
-- power monitoring
-- usage monitoring
-- energy saving
-- inventory tracking
 
 ![img_1.png](img_1.png)
 
-### Energy Saving
+- power monitoring
+- usage monitoring
+- overheating protection / low water alert
+- energy saving
+- inventory tracking
 
-- when usage stops for X minutes -> turn off smart plug
-- when capsule holder opens -> turn on smart plug
 
-### Heating - binary sensor
+### Virtual Sensors
 
-detect power usage from smart plug, above a certain value we know machine is in use
+detect power usage from smart plug, above a certain value we know machine is heating
 
 ![img_2.png](img_2.png)
 
+### Automations
 
-### Usage Monitoring - State sensor
+- when `coffee_machine_switch` is **OFF** + `coffee_machine_capsule_holder` changes to **OPEN** -> `turn on` smart plug
+- when `coffee_machine_switch` changes to **ON** + `low_water` is **ON** -> `turn off` smart plug
+- when `coffee_machine_capsule_state` changes to **COFFEE** -> update timestamp of `last_coffee_timestamp` 
+- when `last_coffee_timestamp` changes -> `deduct_from_inventory` 1 coffee
+- when `coffee_machine_switch` is **ON** + `coffee_machine_capsule_holder` changes to **OPEN** -> `turn off` smart plug + `notify` "enjoy your coffee"
+- when `coffee_machine_capsule_state` changes to **READY** for 20 minutes -> `turn off` smart plug + `notify` "forgot used capsule"
+- when `coffee_machine_switch` changes to **OFF** + `low_water` is **ON** -> `notify` "low water"
 
 ![img_6.png](img_6.png)
 
-### Inventory
-
-when state changes to coffee -> deduct 1 coffee from inventory
-
-update timestamp of last coffee
 
