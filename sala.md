@@ -75,7 +75,7 @@ ligações:
 - Microphone: 1
   - [MX3](https://pt.aliexpress.com/item/1005002652549274.html) - via MiniPC
 - Audio Output: 2
-  - Stereo - cassette + Bluetooth (MiniPC)
+  - Stereo - cassette + vinil + Bluetooth (MiniPC)
   - TV - DLNA + HDMI (MiniPC)
     
 Janelas:
