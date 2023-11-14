@@ -54,3 +54,10 @@ Janelas:
   - [TS0203](https://www.zigbee2mqtt.io/devices/TS0203.html#tuya-ts0203) - window right
 - Temperature: 1  (peripitos)
   - [ZTH02](https://www.zigbee2mqtt.io/devices/ZTH02.html#tuya-zth02)
+
+## Automations
+
+- if `occupancy` changes to **ON** -> turn on lights
+- if `occupancy` changes to **OFF** -> turn off lights
+
+`occupancy` is explained [here](./how/occupancy.md)
