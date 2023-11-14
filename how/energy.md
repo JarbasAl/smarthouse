@@ -31,30 +31,64 @@ When we have a switch in home assistant we can estimate power usage based on whe
 
 ![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/33d2cb24-bb8b-4c47-8e34-f6f65a035994)
 
-Hallways
-- switch 1 - 1 times N W lamps
-- switch 2 - 3 times N W lamps
-- switch 3 - 3 times N W lamps
+### Hallways
 
-Kitchen
-- switch 1 - 1 times N W lamps
-- switch 2 - 1 times N W lamps
-- switch 3 - 1 times N W lamps
+B.O.M.
 
-Living Room
-- switch 1 - 3 times N W lamps
-- switch 2 - 3 times N W lamps
-- switch 3 - 3 times N W lamps
-- switch 4 - 2 times N W lamps
-- plug 1 - 2 times N W lamps
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
+
+- [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) cozinha - 1 times 7 W lamps
+- [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) entrada - 3 times 7 W lamps
+- [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) quartos - 3 times ? W lamps
+
+### WC
+
+B.O.M.
+
+![switch TS0011](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
+![switch TS0011](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
+
+
+- [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) - 1 times ? W lamps
+- [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) espelho - 1 times ? W lamps
+
+### Kitchen
+
+B.O.M.
+
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
+
+- [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) cozinha - 1 times ? W lamps
+- [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) cozinha 2 - 1 times ? W lamps   ( + 1 unused gang)
+- [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) dispensa - 1 times ? W lamps
+- [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) marquise - 1 times ? W lamps   ( + 1 unused gang)
+
+### Living Room
+
+B.O.M.
+
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
+![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
+
+- [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) tv - 3 times 7 W lamps
+- [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) meio - 3 times 7 W lamps
+- [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) mesa - 3 times 7 W lamps
+- [switch TS0012](https://www.zigbee2mqtt.io/devices/TS0012_switch_module.html#tuya-ts0012_switch_module) quadros - 2 times ? W lamps
+- plug 1 - 2 times ? W lamps
 
   
 ## Fixed costs
 
 For each always on device not connected to a sensor we can estimate a fixed cost, measure the consumption once and then create a sensor
 
-- [zigbee repeater](https://www.zigbee2mqtt.io/devices/TS0207_repeater.html) Hallway - 0.4W -> always on
-- [zigbee repeater](https://www.zigbee2mqtt.io/devices/TS0207_repeater.html) WC - 0.4W -> always on
+- [zigbee repeater TS0207](https://www.zigbee2mqtt.io/devices/TS0207_repeater.html) Hallway - 0.4W -> always on
+- [zigbee repeater TS0207](https://www.zigbee2mqtt.io/devices/TS0207_repeater.html) WC - 0.4W -> always on
 
 B.O.M.
 
