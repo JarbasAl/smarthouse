@@ -11,7 +11,7 @@
 - Dumb2Smart
   - [Microwave](./dumb2smart/microwave.md)
   - [Coffee Machine](./dumb2smart/coffee_machine.md)
-  - 
+
 ## Room Connections
 
 ligações:
@@ -47,3 +47,15 @@ Janelas:
 - if `house_sleep` changes to **ON** + `occupancy` is **OFF**-> `turn off` lights
 
 `occupancy` is explained [here](./how/occupancy.md)
+
+### Occupancy
+
+when any condition triggers -> `occupancy` changes to **on**:
+- PIR sensor (movement)
+- lights turn on
+
+`occupancy` does **NOT turn off** if:
+- ...
+
+when condition triggers **IF None of the above** -> `occupancy` changes to **off**:
+- lights turn off
