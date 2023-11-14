@@ -80,4 +80,11 @@ Janelas:
   - [ovos-PHAL-sensors](https://github.com/OpenVoiceOS/ovos-PHAL-sensors) - RPI sensors in Home Assistant
   - [PowerGuess](https://github.com/OpenJarbas/powerguess) - fake power consumption in Home Assistant
   - [Spotifyd](https://github.com/Spotifyd/spotifyd) . accepts audio streaming from spotify
+ 
+## Automations
+
+- if `occupancy` changes to **ON** -> turn on smart plug (candeeiro == light)
+- if `occupancy` changes to **OFF** -> turn off lights + turn off smart plug (candeeiro == light)
+
+`occupancy` is explained [here](./how/occupancy.md)
     
