@@ -86,7 +86,7 @@ Janelas:
  
 ## Automations
 
-- if `occupancy` changes to **ON** **+** is `night_time` **+ NOT** `sleeping` -> `turn on` smart plug (candeeiro == light)
+- if `occupancy` changes to **ON** **+** is `night_time` **+ NOT** `sleeping` **+** `lights off` -> `turn on` smart plug (candeeiro == light)
 - if `occupancy` changes to **OFF** -> `turn off` lights + `turn off` smart plug (candeeiro == light)
 - if `house_sleep` changes to **ON** -> `turn off` lights
 - if `button_click` -> `toogle` candeeiro
