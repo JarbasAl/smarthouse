@@ -75,7 +75,7 @@ ligações:
 - Microphone: 1
   - [MX3](https://pt.aliexpress.com/item/1005002652549274.html) - via MiniPC
 - Audio Output: 2
-  - Stereo - cassette + vinil + Bluetooth (MiniPC)
+  - Stereo - cassette + vinil + [Bluetooth](https://pt.aliexpress.com/item/1005005917337257.html) (MiniPC)
   - TV - DLNA + HDMI (MiniPC)
     
 Janelas:
@@ -101,4 +101,5 @@ Janelas:
   - [Spotifyd](https://github.com/Spotifyd/spotifyd) . accepts audio streaming from spotify
   - [UPMPDCli](https://www.lesbonscomptes.com/upmpdcli/) - accepts audio streaming via DLNA
   - [MiniDLNA](https://wiki.archlinux.org/title/ReadyMedia) - exposes files for streaming via DLNA
+  - [zmq2mjpeg](https://github.com/OpenJarbas/zmq2mjpeg) - exposes object detection sensors and MJPEG cameras to HomeAssistant
 
