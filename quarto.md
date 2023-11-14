@@ -21,6 +21,8 @@ ligações:
 
 ## B.O.M
 
+![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/593af74a-a260-41a5-a778-47e495379cb6)
+
 ![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
 ![switch](https://www.zigbee2mqtt.io/images/devices/TS0011_switch_module.jpg) 
 ![hs100](https://github.com/JarbasAl/smarthouse/assets/33701864/3d4ff7ec-bcb5-47aa-9445-e024a4e34725)
@@ -51,6 +53,7 @@ ligações:
   - Raspberry pi 4  (HDMI 1 / Spotify)
   - Chromecast  (HDMI 2)
 - HVAC: 1
+  - [Baxi Anori R32](https://www.baxi.pt/produtos/ar-condicionado/um-compartimento/anori-mono-r32)
 - Smart Button: 1
   - [IH-K663](https://www.zigbee2mqtt.io/devices/IH-K663.html#tuya-ih-k663) - desk lamp / house sleep (double click)
 - Dumb TV: 1
