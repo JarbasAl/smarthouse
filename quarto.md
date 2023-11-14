@@ -93,3 +93,21 @@ Janelas:
 
 `occupancy` is explained [here](./how/occupancy.md)
     
+### Occupancy
+
+when any condition triggers -> `occupancy` changes to **on**:
+- PIR sensor (movement)
+- lights turn on
+- closet door opens
+- windows open/close
+- chromecast state changes
+- rpi4 playback changes
+- desk lamp turns on/off
+- button pressed
+
+`occupancy` does **NOT turn off** if:
+- chromecast is playing
+- rpi4 is playing
+
+when condition triggers **IF None of the above** -> `occupancy` changes to **off**:
+- lights turn off
