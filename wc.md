@@ -47,7 +47,7 @@ Janelas:
 
 ## Automations
 
-- if `occupancy` changes to **ON** -> turn on light (espelho)
+- if `occupancy` changes to **ON** **+** not sleeping -> turn on light (espelho)
 - if `occupancy` changes to **OFF** -> turn off lights
 
 `occupancy` is explained [here](./how/occupancy.md)
