@@ -54,7 +54,9 @@ ligações:
   - Hisense - 80 - 120 W  (vertical)
 - Media Players: 1
   - Raspberry pi 4  (HDMI 1)
-    
+- [HiveMind](https://jarbashivemind.github.io/HiveMind-community-docs/) Devices (Voice Assistant): 1
+  - Raspberry pi 4 ([ovos-raspbian](https://github.com/OpenVoiceOS/raspbian-ovos))
+     
 Armarios; (dispensa)
   - Light Switch: 1  
     - [switch TS0011](https://www.zigbee2mqtt.io/devices/TS0011_switch_module.html#tuya-ts0011_switch_module) dispensa - 1 times ? W lamps
