@@ -21,6 +21,7 @@ ligações:
 
 ## B.O.M
 
+![imagem](https://github.com/JarbasAl/smarthouse/assets/33701864/593af74a-a260-41a5-a778-47e495379cb6)
 ![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
 ![switch](https://www.zigbee2mqtt.io/images/devices/TS0012_switch_module.jpg) 
 ![hs100](https://github.com/JarbasAl/smarthouse/assets/33701864/3d4ff7ec-bcb5-47aa-9445-e024a4e34725)
@@ -61,6 +62,7 @@ ligações:
   - [plug TS011F](https://www.zigbee2mqtt.io/devices/TS011F_plug_1.html#tuya-ts011f_plug_1) - TV / Stereo
 - Led Strip: 1 (espelho)
 - HVAC: 1
+  - [Baxi Anori R32](https://www.baxi.pt/produtos/ar-condicionado/um-compartimento/anori-mono-r32)
 - IR Control: 1  (TV, HVAC)
 - Smart TV: 1
   - Hisense  - 80 - 120W
