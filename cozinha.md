@@ -121,6 +121,8 @@ when any condition triggers -> cozinha occupancy is **on**:
 - freezer door open
 - microwave door open
 - microwave heating
-- coffee machine working
+- coffee machine capsule holder open
+- coffee machine turn on
+- coffee machine heating
 - PIR sensor (movement)
 - lights on
