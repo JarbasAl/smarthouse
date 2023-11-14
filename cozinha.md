@@ -102,9 +102,9 @@ Armarios; (dispensa)
 
 ## Automations
 
-- if `occupancy` changes to **ON** **+** is night time **+** not sleeping-> turn on lights
-- if `occupancy` changes to **OFF** -> turn off lights **+** turn off appliances (microwave / coffee machine)
-- if `house_sleep` changes to **ON** + `occupancy` is **OFF** -> turn off lights **+** turn off appliances (microwave / coffee machine)
+- if `occupancy` changes to **ON** **+** is `night_time` **+ NOT** `sleeping` -> `turn on` lights
+- if `occupancy` changes to **OFF** -> `turn off` lights **+** `turn off` appliances (microwave / coffee machine)
+- if `house_sleep` changes to **ON** + `occupancy` is **OFF** -> `turn off` lights **+** `turn off` appliances (microwave / coffee machine)
 - coffee machine automations (TODO)
 - microwave automations  (TODO)
 - fridge automations  (TODO)
