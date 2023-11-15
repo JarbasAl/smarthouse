@@ -40,6 +40,7 @@ Estimate a `bath_probability` based on:
 ## Sensor
 
 Template
+{% raw %}
 ```
 {% set prob = 0.0 %}
 {% if states('binary_sensor.agua_no_banho_water_leak') == "on" %}
@@ -65,4 +66,4 @@ Template
 {% endif %}
 {{prob * 100}}
 ```
-
+{% endraw %}
