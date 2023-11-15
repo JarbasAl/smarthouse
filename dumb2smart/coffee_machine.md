@@ -9,6 +9,7 @@
   - [Inventory](../how/inventory.md)
 - Dumb2Smart
   - [Microwave](./microwave.md)
+  - [Shower](./bath.md)
 
 ## Requirements:
 

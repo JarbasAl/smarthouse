@@ -9,6 +9,7 @@
   - [Inventory](../how/inventory.md)
 - Dumb2Smart
   - [Coffee Machine](./coffee_machine.md)
+  - [Shower](./bath.md)
 
 ## Requirements:
 
