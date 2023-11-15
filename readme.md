@@ -32,6 +32,7 @@ Instruction Manual
 - Dumb2Smart
   - [Microwave](./dumb2smart/microwave.md)
   - [Coffee Machine](./dumb2smart/coffee_machine.md)
+  - [Shower](./dumb2smart/bath.md)
 - Divisões:
   - [corredores](./corredores.md)
   - [sala](./sala.md)
